@@ -1,0 +1,30 @@
+
+<!doctype html>
+<html >
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+		<title>地球 | Kren-you</title>
+		<script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+		<script type="text/javascript" language="javascript" src="https://www.jq22.com/demo/jquerydq201810101034/rem.js"></script>
+	</head>
+
+	<body style="width: 7.5rem;height: 100%;margin: 0 auto;background:#000;">
+		<div style="width: 7rem; height: 7rem; margin: 0 auto; position: absolute; top: 25%; left: 50%; margin-left: -3.5rem; border-radius: 50%; overflow: hidden; background: url(./aa.jpg); background-size: auto 100%; box-shadow: inset 0px 0px 170px 30px rgba(0,0,0,1);">
+		</div>
+	</body>
+	<script>
+		$(function() {
+			ab();
+
+			function ab() {
+				var k=0
+				setInterval(function(){
+					k++;
+					$('div').css('background-position-x',"-"+k+"px")
+				},40);
+			}
+		})
+	</script>
+
+</html>
