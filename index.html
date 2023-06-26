@@ -1,16 +1,787 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<meta charset="utf-8">
-<title>Kren-you</title>
-	<link href="https://avatars.githubusercontent.com/u/99156003?v=4" rel="shortcut icon"/>
+    <!--- Basic Page Needs  -->
+    <meta charset="utf-8">
+    <title>Kren-you</title>
+    <link href="https://avatars.githubusercontent.com/u/99156003?v=4" rel="shortcut icon"/>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Mobile Specific Meta  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://www.jq22.com/jquery/bootstrap-4.2.1.css">
+    <link rel="stylesheet" href="https://www.jq22.com/jquery/jquery-ui-1.11.0.css">
+    <link rel="stylesheet" href="https://www.jq22.com/demo/bootstrapsymoban201909271006/css/all.min.css">
+    <link rel="stylesheet" href="https://www.jq22.com/demo/bootstrapsymoban201909271006/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://www.jq22.com/demo/bootstrapsymoban201909271006/css/animate.css">
+    <link rel="stylesheet" href="https://www.jq22.com/demo/bootstrapsymoban201909271006/css/stellarnav.min.css">
+    <link rel="stylesheet" href="https://www.jq22.com/demo/bootstrapsymoban201909271006/css/magnific-popup.css">
+    <link rel="stylesheet" href="https://www.jq22.com/demo/bootstrapsymoban201909271006/fonts/stylesheet.css">
+    <link rel="stylesheet" href="https://www.jq22.com/demo/bootstrapsymoban201909271006/css/style.css">
+    <link rel="stylesheet" href="https://www.jq22.com/demo/bootstrapsymoban201909271006/css/responsive.css">
+	-
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/favicon.ico">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-
-<h1>更新预告</h1>
-<h2>Kren-you.github.io主站将于2023年5月1日前，以全新的姿态重新上线<br></h2>
+    <div id="preloader"></div>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-sm-4 col-5">
+                    <div class="logo">
+                        <a href="index.html" class="link"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-sm-4 col-7">
+                    <div class="main-menu stellarnav">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <!-- <li class="active"><a href="">WORKS</a>
+                                <ul>
+                                    <li><a href="#">How deep?</a>
+                                        <ul>
+                                            <li><a href="#">Deep</a>
+                                                <ul>
+                                                    <li><a href="#">Even deeper</a>
+                                                        <ul>
+                                                            <li><a href="#">Item</a></li>
+                                                            <li><a href="#">Item</a></li>
+                                                            <li><a href="#">Item</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#">Item</a></li>
+                                                    <li><a href="#">Item</a></li>
+                                                    <li><a href="#">Item</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Item</a>
+                                        <ul>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Item</a>
+                                        <ul>
+                                            <li><a href="#">Deeper</a>
+                                                <ul>
+                                                    <li><a href="#">Item</a></li>
+                                                    <li><a href="#">Item</a></li>
+                                                    <li><a href="#">Item</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li> -->
+                            
+                            <!--<li><a href="blog.html">Blog</a>
+                                <ul>
+                                    <li><a href="single-blog.html">Single Blog</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="pricing.html">Pricing</a></li>
+                            <li><a href="single-service.html">service</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>-->
+                            <li><a href=".html">MY MOMENTS</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--<div class="col-lg-2 col-sm-4 col-12 d-none d-sm-block">
+                    <div class="lets-chat">
+                        <a href="#" class="link btn-style-1">LET’S CHAT</a>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </header>
+    <section class="hero-area">
+        <div class="hero-element-1"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/hero-element-1.png" alt=""></div>
+        <div class="hero-element-2"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/hero-element-2.png" alt=""></div>
+        <div class="hero-element-3"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/hero-element-3.png" alt=""></div>
+        <div class="hero-element-4"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/hero-element-4.png" alt=""></div>
+        <div class="hero-banner"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/team06.png" alt=""></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-12">
+                    <div class="hero-content">
+                        <h3 class="intro">Hello, I’m</h3>
+                        <h2 class="title">Kren You</h2>
+                        <h3 class="desg">kren-you@outlook.com</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 	
-	<h2><br>更新时间:2023/4/1 —————— 版本号:0.3.-1</h2>
-
+	
+	
+	
+	
+	<!--在这里放一个标记-->
+	
+	
+	
+	
+	
+   <!--<section class="info-tab-area">
+        <div class="tab-bg-element"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/tab-bg-elements.png" alt=""></div>
+        <div class="container">
+            <div class="info-tab">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="true">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="service-tab" data-toggle="tab" href="#service" role="tab" aria-controls="service" aria-selected="false">MY SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="interviews-tab" data-toggle="tab" href="#interviews" role="tab" aria-controls="interviews" aria-selected="false">INTERVIEWS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="awards-tab" data-toggle="tab" href="#awards" role="tab" aria-controls="awards" aria-selected="false">AWARDS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="exhibitions-tab" data-toggle="tab" href="#exhibitions" role="tab" aria-controls="exhibitions" aria-selected="false">EXHIBITIONS</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
+                        <div class="content-about">
+                            <div class="row">
+                                <div class="col-lg-6 col-12">
+                                    <div class="banner"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/Untitled-1-01.png" alt=""></div>
+                                </div>
+                                <div class="col-lg-6 col-12">
+                                    <div class="content">
+                                        <p class="intro">ABOUT ME</p>
+                                        <h2 class="title">Why hire me for your next project?</h2>
+                                        <p class="text">Meet my startup design agency <a href="#">Shape Rex</a> Currently I am working at <a href="#">CodeNext</a> as Product Designer. Before that I’ve worked at <a href="#">SpurBee</a>, Dhaka as a UX, UI Designer. <br><br>I love to work in User Experience & User Interface designing. Because I love to solve the design problem  and find easy and better solutions to solve it. I always try my best to make good user interface with the best user experience. I have been working as a Visual designer from 6.5 years.</p>
+                                        <a class="more btn-style-1" href="#">LEARN MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="service" role="tabpanel" aria-labelledby="service-tab">
+                        <div class="content-service">
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="single-service">
+                                        <div class="icon">
+                                            <span class="icon-box"><i class="fa fa-bullseye-arrow"></i></span>
+                                        </div>
+                                        <div class="content">
+                                            <h4 class="title">Business Strategy</h4>
+                                            <p class="text">Strategy develop customer in organisational knowledge and market perspectives that inform and provoke.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="single-service">
+                                        <div class="icon">
+                                            <span class="icon-box"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/service-2.png" alt=""></span>
+                                        </div>
+                                        <div class="content">
+                                            <h4 class="title">Brand Strategy</h4>
+                                            <p class="text">Strategy develop customer in organisational knowledge and market perspectives that inform and provoke.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="single-service">
+                                        <div class="icon">
+                                            <span class="icon-box"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/service-3.png" alt=""></span>
+                                        </div>
+                                        <div class="content">
+                                            <h4 class="title">Visual Design</h4>
+                                            <p class="text">Strategy develop customer in organisational knowledge and market perspectives that inform and provoke.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="single-service">
+                                        <div class="icon">
+                                            <span class="icon-box"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/service-4.png" alt=""></span>
+                                        </div>
+                                        <div class="content">
+                                            <h4 class="title">Product Design</h4>
+                                            <p class="text">Strategy develop customer in organisational knowledge and market perspectives that inform and provoke.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="single-service">
+                                        <div class="icon">
+                                            <span class="icon-box"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/service-5.png" alt=""></span>
+                                        </div>
+                                        <div class="content">
+                                            <h4 class="title">Interactive Design</h4>
+                                            <p class="text">Strategy develop customer in organisational knowledge and market perspectives that inform and provoke.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="single-service">
+                                        <div class="icon">
+                                            <span class="icon-box"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/service-6.png" alt=""></span>
+                                        </div>
+                                        <div class="content">
+                                            <h4 class="title">Motion Graphic</h4>
+                                            <p class="text">Strategy develop customer in organisational knowledge and market perspectives that inform and provoke.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="interviews" role="tabpanel" aria-labelledby="interviews-tab">
+                        <div class="content-interview">
+                            <div class="row">
+                                <div class="col-lg-6 col-12">
+                                    <div class="single-interview">
+                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/interview-1.png" alt=""></div>
+                                        <div class="content">
+                                            <h4 class="title">Business Strategy</h4>
+                                            <p class="text">There are many variations of passages lorem Ipsum available, but the majority have suffered alteration.</p>
+                                            <a href="#" class="more">SEA MORE <span class="icon"><i class="far fa-long-arrow-alt-right"></i></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-12">
+                                    <div class="single-interview">
+                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/interview-2.png" alt=""></div>
+                                        <div class="content">
+                                            <h4 class="title">Business Strategy</h4>
+                                            <p class="text">There are many variations of passages lorem Ipsum available, but the majority have suffered alteration.</p>
+                                            <a href="#" class="more">SEA MORE <span class="icon"><i class="far fa-long-arrow-alt-right"></i></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-12">
+                                    <div class="single-interview">
+                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/interview-3.png" alt=""></div>
+                                        <div class="content">
+                                            <h4 class="title">Business Strategy</h4>
+                                            <p class="text">There are many variations of passages lorem Ipsum available, but the majority have suffered alteration.</p>
+                                            <a href="#" class="more">SEA MORE <span class="icon"><i class="far fa-long-arrow-alt-right"></i></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-12">
+                                    <div class="single-interview">
+                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/interview-4.png" alt=""></div>
+                                        <div class="content">
+                                            <h4 class="title">Business Strategy</h4>
+                                            <p class="text">There are many variations of passages lorem Ipsum available, but the majority have suffered alteration.</p>
+                                            <a href="#" class="more">SEA MORE <span class="icon"><i class="far fa-long-arrow-alt-right"></i></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="awards" role="tabpanel" aria-labelledby="awards-tab">
+                        <div class="content-awards">
+                            <div class="row">
+                                <div class="col-lg-6 col-12">
+                                    <div class="single-awards">
+                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/award-1.png" alt=""></div>
+                                        <div class="content">
+                                            <h4 class="title">Awards Name Here</h4>
+                                            <p class="text">Strategy develop customer in organisational knowledge and market perspectives that inform and provoke.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-12">
+                                    <div class="single-awards">
+                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/award-2.png" alt=""></div>
+                                        <div class="content">
+                                            <h4 class="title">Awards Name Here</h4>
+                                            <p class="text">Strategy develop customer in organisational knowledge and market perspectives that inform and provoke.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-12">
+                                    <div class="single-awards">
+                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/award-3.png" alt=""></div>
+                                        <div class="content">
+                                            <h4 class="title">Awards Name Here</h4>
+                                            <p class="text">Strategy develop customer in organisational knowledge and market perspectives that inform and provoke.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-12">
+                                    <div class="single-awards">
+                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/award-4.png" alt=""></div>
+                                        <div class="content">
+                                            <h4 class="title">Awards Name Here</h4>
+                                            <p class="text">Strategy develop customer in organisational knowledge and market perspectives that inform and provoke.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="exhibitions" role="tabpanel" aria-labelledby="exhibitions-tab">
+                        <div class="content-exhibitions">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="single-exhibition">
+                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/exhibition-1.png" alt=""></div>
+                                        <div class="content">
+                                            <h4 class="name">Can you help translate this site into a foreign? </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="single-exhibition">
+                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/exhibition-2.png" alt=""></div>
+                                        <div class="content">
+                                            <h4 class="name">Can you help translate this site into a foreign? </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="single-exhibition">
+                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/exhibition-3.png" alt=""></div>
+                                        <div class="content">
+                                            <h4 class="name">Can you help translate this site into a foreign? </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="single-exhibition">
+                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/exhibition-4.png" alt=""></div>
+                                        <div class="content">
+                                            <h4 class="name">Can you help translate this site into a foreign? </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="single-exhibition">
+                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/exhibition-5.png" alt=""></div>
+                                        <div class="content">
+                                            <h4 class="name">Can you help translate this site into a foreign? </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="single-exhibition">
+                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/exhibition-6.png" alt=""></div>
+                                        <div class="content">
+                                            <h4 class="name">Can you help translate this site into a foreign? </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="project-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <p class="intro">MY CLIENT</p>
+                        <h2 class="title">Projects</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project-carousel owl-carousel">
+            <div class="single-project">
+                <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/dashboard_admin.png" alt=""></div>
+                <div class="content">
+                    <p class="type">DASHBOARD, ADMIN</p>
+                    <h2 class="title">Project Management Admin Panel</h2>
+                    <p class="text">I made nine prototypes to understand family needs better and redesigned the iOS and Android apps.</p>
+                    <a class="read btn-style-1" href="#">READ PROCESS</a>
+                </div>
+            </div>
+            <div class="single-project">
+                <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/architecture1.png" alt=""></div>
+                <div class="content">
+                    <p class="type">WEBSITE</p>
+                    <h2 class="title">Architecture Company Website</h2>
+                    <p class="text">I made nine prototypes to understand family needs better and redesigned the iOS and Android apps.</p>
+                    <a class="read btn-style-1" href="#">READ PROCESS</a>
+                </div>
+            </div>
+            <div class="single-project">
+                <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/to-do-list.png" alt=""></div>
+                <div class="content">
+                    <p class="type">MOBILE APP, IOS APP</p>
+                    <h2 class="title">To Do Task List App</h2>
+                    <p class="text">I made nine prototypes to understand family needs better and redesigned the iOS and Android apps.</p>
+                    <a class="read btn-style-1" href="#">READ PROCESS</a>
+                </div>
+            </div>
+            <div class="single-project">
+                <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/dashboard_admin.png" alt=""></div>
+                <div class="content">
+                    <p class="type">DASHBOARD, ADMIN</p>
+                    <h2 class="title">Project Management Admin Panel</h2>
+                    <p class="text">I made nine prototypes to understand family needs better and redesigned the iOS and Android apps.</p>
+                    <a class="read btn-style-1" href="#">READ PROCESS</a>
+                </div>
+            </div>
+            <div class="single-project">
+                <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/architecture1.png" alt=""></div>
+                <div class="content">
+                    <p class="type">WEBSITE</p>
+                    <h2 class="title">Architecture Company Website</h2>
+                    <p class="text">I made nine prototypes to understand family needs better and redesigned the iOS and Android apps.</p>
+                    <a class="read btn-style-1" href="#">READ PROCESS</a>
+                </div>
+            </div>
+            <div class="single-project">
+                <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/to-do-list.png" alt=""></div>
+                <div class="content">
+                    <p class="type">MOBILE APP, IOS APP</p>
+                    <h2 class="title">To Do Task List App</h2>
+                    <p class="text">I made nine prototypes to understand family needs better and redesigned the iOS and Android apps.</p>
+                    <a class="read btn-style-1" href="#">READ PROCESS</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <p class="intro">TESTIMONIALS</p>
+                        <h2 class="title">Happy Clients Says</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-carousel owl-carousel">
+                <div class="single-testimonial">
+                    <div class="info">
+                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/photo-1534528741775-53994a69daeb.png" alt=""></div>
+                        <div class="info-right">
+                            <h3 class="name">Martha Sandoval</h3>
+                            <p class="desg">Product Designer at CodeNext</p>
+                        </div>
+                    </div>
+                    <p class="text">We are motivated by the satisfaction of our clients. Put your trust in us and share in our growth Asset Management is made up of a team of expert, committed and experienced people with a passion for financial markets. Our goal is to achieve continuous and sustainable growth of our clients.</p>
+                </div>
+                <div class="single-testimonial">
+                    <div class="info">
+                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/photo-1545975645-ea9501a81d76.png" alt=""></div>
+                        <div class="info-right">
+                            <h3 class="name">Mildred Meyer</h3>
+                            <p class="desg">Product Designer at CodeNext</p>
+                        </div>
+                    </div>
+                    <p class="text">We are motivated by the satisfaction of our clients. Put your trust in us and share in our growth Asset Management is made up of a team of expert, committed and experienced people with a passion for financial markets. Our goal is to achieve continuous and sustainable growth of our clients.</p>
+                </div>
+                <div class="single-testimonial">
+                    <div class="info">
+                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/photo-1534528741775-53994a69daeb.png" alt=""></div>
+                        <div class="info-right">
+                            <h3 class="name">Martha Sandoval</h3>
+                            <p class="desg">Product Designer at CodeNext</p>
+                        </div>
+                    </div>
+                    <p class="text">We are motivated by the satisfaction of our clients. Put your trust in us and share in our growth Asset Management is made up of a team of expert, committed and experienced people with a passion for financial markets. Our goal is to achieve continuous and sustainable growth of our clients.</p>
+                </div>
+                <div class="single-testimonial">
+                    <div class="info">
+                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/photo-1545975645-ea9501a81d76.png" alt=""></div>
+                        <div class="info-right">
+                            <h3 class="name">Mildred Meyer</h3>
+                            <p class="desg">Product Designer at CodeNext</p>
+                        </div>
+                    </div>
+                    <p class="text">We are motivated by the satisfaction of our clients. Put your trust in us and share in our growth Asset Management is made up of a team of expert, committed and experienced people with a passion for financial markets. Our goal is to achieve continuous and sustainable growth of our clients.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="client-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-12">
+                    <div class="client-area-left-side">
+                        <div class="section-title">
+                            <p class="intro">MY HONORABLE</p>
+                            <h2 class="title">Clients</h2>
+                        </div>
+                        <ul class="nav nav-tabs" id="clientTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="world-tab" data-toggle="tab" href="#world" role="tab" aria-controls="world" aria-selected="true">WORLDWIDE <span class="icon"><i class="fas fa-caret-right"></i></span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="country-tab" data-toggle="tab" href="#country" role="tab" aria-controls="country" aria-selected="false">MY COUNTRY <span class="icon"><i class="fas fa-caret-right"></i></span></a>
+                            </li>
+                        </ul> 
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-8 col-12">
+                    <div class="client-area-right-side">
+                        <div class="tab-content" id="clientTabContent">
+                            <div class="tab-pane fade show active" id="world" role="tabpanel" aria-labelledby="world-tab">
+                                <div class="row">
+                                    <div class="col-lg-4 col-sm-6 col-12">
+                                        <div class="single-client">
+                                            <img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/decisive-farming.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-6 col-12">
+                                        <div class="single-client">
+                                            <img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/ama-prom-baltic.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-6 col-12">
+                                        <div class="single-client">
+                                            <img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/louisiana-plumbing.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-6 col-12">
+                                        <div class="single-client">
+                                            <img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/belrosstroj-858.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-6 col-12">
+                                        <div class="single-client">
+                                            <img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/belrosstroj-858.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-6 col-12">
+                                        <div class="single-client">
+                                            <img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/beot.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="country" role="tabpanel" aria-labelledby="country-tab">
+                                <div class="row">
+                                    <div class="col-lg-4 col-sm-6 col-12">
+                                        <div class="single-client">
+                                            <img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/decisive-farming.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-6 col-12">
+                                        <div class="single-client">
+                                            <img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/belrosstroj-858.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-6 col-12">
+                                        <div class="single-client">
+                                            <img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/belrosstroj-858.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-6 col-12">
+                                        <div class="single-client">
+                                            <img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/beot.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	-->
+	<section class="blog-section spad" id="blog">
+		<div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <p class="intro">网站更新动态</p>
+                        <h2 class="title">公告 & News</h2>
+                    </div>
+                </div>
+            </div>
+			<div class="row">
+				<!-- single-post -->
+				<div class="col-md-4">
+					<!--<a href="#" class="blog-item">
+						<img src="https://www.jq22.com/demo/jquerydyweb201908160049/images/blog/blog2.jpg" alt="">-->
+						<div class="blog-item-text">
+							<h3>网站更新</h3>
+							<p>自2023年04月以来对网站进行全面升级，如今告一段落了</br>全新的网站正式面世<br>部分版本较低的浏览器可能不支持本网站</br>版本号：0.3.0  更新时间：2023-6-26</p>
+							<h5>26 JUNE 2023 / POSTED BY <i>Kren-you</i></h5>
+						</div> 
+			<!--</a>-->
+			</div>
+				<!-- single-post -->
+				<div class="col-md-4">
+						<!--<img src="https://www.jq22.com/demo/jquerydyweb201908160049/images/blog/blog2.jpg" alt="">-->
+						<div class="blog-item-text">
+							<h3>敬请期待。。。</h3>
+							<p>目前只搭好了大体框架，网站还在更新中 <!--</br>   版本号：0.2.4  更新时间：2022-10-26--></p>
+							<!--<h5>26 OCTORBER 2022 / POSTED BY  <i>Kren-you</i></h5>-->
+						</div>
+			</div>
+				<!-- single-post -->
+				<!--<div class="col-md-4">
+					<a href="single-blog.html" class="blog-item">
+						<img src="https://www.jq22.com/demo/jquerydyweb201908160049/images/blog/blog3.jpg" alt="">
+						<div class="blog-item-text">
+							<h3>Out believe has request not how</h3>
+							<p>Quick six blind smart out burst. Perfectly on furniture dejection determine my depending an to. Add short water court fat.</p>
+							<h5>7 February 2017 / POSTED BY ADMIN</h5>
+						</div>
+					</a>
+				</div>-->
+				<!-- single-post -->
+				<!--<div class="col-md-4">
+					<a href="single-blog.html" class="blog-item">
+						<img src="https://www.jq22.com/demo/jquerydyweb201908160049/images/blog/blog3.jpg" alt="">
+						<div class="blog-item-text">
+							<h3>Out believe has request not how</h3>
+							<p>Quick six blind smart out burst. Perfectly on furniture dejection determine my depending an to. Add short water court fat.</p>
+							<h5>7 February 2017 / POSTED BY ADMIN</h5>
+						</div>
+					</a>
+				</div>-->
+			</div>
+		</div>
+	</section>
+	<!-- ==== News Section End ==== -->
+	
+    <section class="social-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <p class="intro">社交媒体</p>
+                        <h2 class="title">在茫茫星海中找到我—></h2>
+                    </div>
+                </div>
+            </div>
+			<p>正在更新：）</p>
+            <!--<div class="row">
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="single-social">
+                        <h3 class="title">Linkeding</h3>
+                        <p class="info">Professional social profile</p>
+                        <span class="icon"><i class="fa fa-linkedin-in"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="single-social">
+                        <h3 class="title">Dribbble</h3>
+                        <p class="info">Design work social profile</p>
+                        <span class="icon"><i class="fa fa-basketball"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="single-social">
+                        <h3 class="title">Instagram</h3>
+                        <p class="info">Image base social communications</p>
+                        <span class="icon"><i class="fa fa-instagram"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="single-social">
+                        <h3 class="title">Twitter</h3>
+                        <p class="info">Random thoughts</p>
+                        <span class="icon"><i class="fa fa-twitter"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="single-social">
+                        <h3 class="title">Medium</h3>
+                        <p class="info">Work case study</p>
+                        <span class="icon"><i class="fa fa-medium"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="single-social">
+                        <h3 class="title">Email</h3>
+                        <p class="info">hello@growth.digital</p>
+                        <span class="icon"><i class="fa fa-envelope"></i></span>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </section>
+    <!--<footer>
+        <div class="container">
+            <div class="footer-top-area">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-3 col-12">
+                        <div class="f-logo">
+                            <a href="index.html" class="link"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-5 col-12">
+                        <div class="f-title">
+                            <h2 class="title">Let’s Talk?</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-4 col-12">
+                        <div class="f-chat">
+                            <a href="#" class="link btn-style-1">LET’S CHAT</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-area">
+                <div class="footer-links">
+                    <ul class="links">
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">WORKS</a></li>
+                        <li><a href="#">CASE STUDY</a></li>
+                        <li><a href="#">CLIENTS</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="footer-copyright">
+                    <p class="copyright">? 2019 Growth, Barnard St. Savannah, GA 3140</p>
+                </div>
+            </div>
+        </div>
+    </footer>-->
+    <!-- Scripts -->
+    <script src="https://www.jq22.com/jquery/jquery-3.3.1.js"></script>
+    <script src="https://www.jq22.com/jquery/jquery-ui-1.11.0.js"></script>
+    <script src="https://www.jq22.com/demo/bootstrapsymoban201909271006/js/owl.carousel.min.js"></script>
+    <script src="https://www.jq22.com/demo/bootstrapsymoban201909271006/js/jquery.counterup.min.js"></script>
+    <script src="https://www.jq22.com/demo/bootstrapsymoban201909271006/js/countdown.js"></script>
+    <script src="https://www.jq22.com/demo/bootstrapsymoban201909271006/js/stellarnav.min.js"></script>
+    <script src="https://www.jq22.com/demo/bootstrapsymoban201909271006/js/imagesloaded.pkgd.min.js"></script>
+    <script src="https://www.jq22.com/demo/bootstrapsymoban201909271006/js/isotope.pkgd.min.js"></script>
+    <script src="https://www.jq22.com/demo/bootstrapsymoban201909271006/js/jquery.magnific-popup.min.js"></script>
+    <script src="https://www.jq22.com/demo/bootstrapsymoban201909271006/js/jquery.scrollUp.js"></script>
+    <script src="https://www.jq22.com/demo/bootstrapsymoban201909271006/js/jquery.waypoints.min.js"></script>
+    <script src="https://www.jq22.com/demo/bootstrapsymoban201909271006/js/popper.min.js"></script>
+    <script src="https://www.jq22.com/demo/bootstrapsymoban201909271006/js/bootstrap.min.js"></script>
+    <script src="https://www.jq22.com/demo/bootstrapsymoban201909271006/js/theme.js"></script>
 </body>
+
 </html>
+
