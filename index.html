@@ -1,628 +1,609 @@
+
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ch">
 <head>
-    <!--- Basic Page Needs  -->
-    <meta charset="utf-8">
-    <title>Kren-you</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Kren-you</title>
     <link href="https://avatars.githubusercontent.com/u/99156003?v=4" rel="shortcut icon"/>
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Mobile Specific Meta  -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <!-- CSS -->
-    <link rel="stylesheet" href="https://www.jq22.com/jquery/bootstrap-4.2.1.css">
-    <link rel="stylesheet" href="https://www.jq22.com/jquery/jquery-ui-1.11.0.css">
-    <link rel="stylesheet" href="https://www.jq22.com/demo/bootstrapsymoban201909271006/css/all.min.css">
-    <link rel="stylesheet" href="https://www.jq22.com/demo/bootstrapsymoban201909271006/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://www.jq22.com/demo/bootstrapsymoban201909271006/css/animate.css">
-    <link rel="stylesheet" href="https://www.jq22.com/demo/bootstrapsymoban201909271006/css/stellarnav.min.css">
-    <link rel="stylesheet" href="https://www.jq22.com/demo/bootstrapsymoban201909271006/css/magnific-popup.css">
-    <link rel="stylesheet" href="https://www.jq22.com/demo/bootstrapsymoban201909271006/fonts/stylesheet.css">
-    <link rel="stylesheet" href="https://www.jq22.com/demo/bootstrapsymoban201909271006/css/style.css">
-    <link rel="stylesheet" href="https://www.jq22.com/demo/bootstrapsymoban201909271006/css/responsive.css">
+<meta name="robots" content="noindex, follow" />
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- CSS ============================================ --><!-- Vendor CSS(Contain Bootstrap,Icon Fonts) -->
+<link rel="stylesheet" href="https://www.jq22.com/jquery/bootstrap-5.0.0.css">
+<link rel="stylesheet" href="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/css/vendor/icofont.min.css" />
+<!-- Plugin CSS(Global Plugins Files) -->
+<link rel="stylesheet" href="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/css/plugins/animate.css">
+<link rel="stylesheet" href="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/css/plugins/swiper-bundle.min.css">
+<link rel="stylesheet" href="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/css/plugins/nice-select.css">
+<link rel="stylesheet" href="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/css/plugins/venobox.min.css" />
+<!-- Minify Version -->\
+<link rel="stylesheet" href="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/css/style.css">
+<!-- <link rel="stylesheet" href="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/css/style.min.css">-->
 	
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/favicon.ico">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+	
+    <link rel="stylesheet" href="demo-files/demo.css">
+    <link rel="stylesheet" href="style.css">
+	
 </head>
-
 <body>
-    <div id="preloader"></div>
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-2 col-sm-4 col-5">
-                    <div class="logo">
-                        <a href="index.html" class="link"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/logo.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-lg-8 col-sm-4 col-7">
-                    <div class="main-menu">
-                        <ul>
-                            <li><a href="/index.html">HOME</a></li>
-                            <!-- <li class="active"><a href="">WORKS</a>
-                                <ul>
-                                    <li><a href="#">How deep?</a>
-                                        <ul>
-                                            <li><a href="#">Deep</a>
-                                                <ul>
-                                                    <li><a href="#">Even deeper</a>
-                                                        <ul>
-                                                            <li><a href="#">Item</a></li>
-                                                            <li><a href="#">Item</a></li>
-                                                            <li><a href="#">Item</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="#">Item</a></li>
-                                                    <li><a href="#">Item</a></li>
-                                                    <li><a href="#">Item</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Item</a></li>
-                                            <li><a href="#">Item</a></li>
-                                            <li><a href="#">Item</a></li>
-                                            <li><a href="#">Item</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Item</a>
-                                        <ul>
-                                            <li><a href="#">Item</a></li>
-                                            <li><a href="#">Item</a></li>
-                                            <li><a href="#">Item</a></li>
-                                            <li><a href="#">Item</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Item</a>
-                                        <ul>
-                                            <li><a href="#">Deeper</a>
-                                                <ul>
-                                                    <li><a href="#">Item</a></li>
-                                                    <li><a href="#">Item</a></li>
-                                                    <li><a href="#">Item</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Item</a></li>
-                                            <li><a href="#">Item</a></li>
-                                            <li><a href="#">Item</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li> -->
-                            
-                            <!--<li><a href="blog.html">Blog</a>
-                                <ul>
-                                    <li><a href="single-blog.html">Single Blog</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="pricing.html">Pricing</a></li>
-                            <li><a href="single-service.html">service</a></li>
-                            <li><a href="contact.html">CONTACT</a></li>-->
-                            <li><a href="/moments">MY MOMENTS</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!--<div class="col-lg-2 col-sm-4 col-12 d-none d-sm-block">
-                    <div class="lets-chat">
-                        <a href="#" class="link btn-style-1">LET’S CHAT</a>
-                    </div>
-                </div>-->
-            </div>
-        </div>
-    </header>
-    <section class="hero-area">
-        <div class="hero-element-1"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/hero-element-1.png" alt=""></div>
-        <div class="hero-element-2"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/hero-element-2.png" alt=""></div>
-        <div class="hero-element-3"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/hero-element-3.png" alt=""></div>
-        <div class="hero-element-4"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/hero-element-4.png" alt=""></div>
-        <div class="hero-banner"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/team06.png" alt=""></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-12">
-                    <div class="hero-content">
-                        <h3 class="intro">Hello, I’m</h3>
-                        <h2 class="title">Kren You</h2>
-                        <h3 class="desg">kren-you@outlook.com</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-	
-	
-	
-	
-	
-	<!--在这里放一个标记-->
-	
-	
-	
-	
-	
-   <!--<section class="info-tab-area">
-        <div class="tab-bg-element"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/tab-bg-elements.png" alt=""></div>
-        <div class="container">
-            <div class="info-tab">
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="true">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="service-tab" data-toggle="tab" href="#service" role="tab" aria-controls="service" aria-selected="false">MY SERVICES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="interviews-tab" data-toggle="tab" href="#interviews" role="tab" aria-controls="interviews" aria-selected="false">INTERVIEWS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="awards-tab" data-toggle="tab" href="#awards" role="tab" aria-controls="awards" aria-selected="false">AWARDS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="exhibitions-tab" data-toggle="tab" href="#exhibitions" role="tab" aria-controls="exhibitions" aria-selected="false">EXHIBITIONS</a>
-                    </li>
+<main class="main-wrapper"><!-- .....::::::Start Header Section:::::.... -->
+  <header class="header-section sticky-header d-none d-lg-block">
+    <div class="header-wrapper">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col"><!-- Start Header Logo --><a href="index.html" class="header-logo"><img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/logo/logo.png" alt=""></a><!-- End Header Logo --></div>
+          <div class="col-auto"><!-- Start Header Menu -->
+            <ul class="header-nav">
+              <li><a href="/index.html">Home</a></li>
+              <!--<li class="has-dropdown"><a href="service-list.html">Service</a>
+                <ul class="submenu">
+                  <li><a href="service-list.html">Services</a></li>
+                  <li><a href="service-details.html">Service Details</a></li>
                 </ul>
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
-                        <div class="content-about">
-                            <div class="row">
-                                <div class="col-lg-6 col-12">
-                                    <div class="banner"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/Untitled-1-01.png" alt=""></div>
-                                </div>
-                                <div class="col-lg-6 col-12">
-                                    <div class="content">
-                                        <p class="intro">ABOUT ME</p>
-                                        <h2 class="title">Why hire me for your next project?</h2>
-                                        <p class="text">Meet my startup design agency <a href="#">Shape Rex</a> Currently I am working at <a href="#">CodeNext</a> as Product Designer. Before that I’ve worked at <a href="#">SpurBee</a>, Dhaka as a UX, UI Designer. <br><br>I love to work in User Experience & User Interface designing. Because I love to solve the design problem  and find easy and better solutions to solve it. I always try my best to make good user interface with the best user experience. I have been working as a Visual designer from 6.5 years.</p>
-                                        <a class="more btn-style-1" href="#">LEARN MORE</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="service" role="tabpanel" aria-labelledby="service-tab">
-                        <div class="content-service">
-                            <div class="row">
-                                <div class="col-lg-4 col-sm-6 col-12">
-                                    <div class="single-service">
-                                        <div class="icon">
-                                            <span class="icon-box"><i class="fa fa-bullseye-arrow"></i></span>
-                                        </div>
-                                        <div class="content">
-                                            <h4 class="title">Business Strategy</h4>
-                                            <p class="text">Strategy develop customer in organisational knowledge and market perspectives that inform and provoke.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-6 col-12">
-                                    <div class="single-service">
-                                        <div class="icon">
-                                            <span class="icon-box"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/service-2.png" alt=""></span>
-                                        </div>
-                                        <div class="content">
-                                            <h4 class="title">Brand Strategy</h4>
-                                            <p class="text">Strategy develop customer in organisational knowledge and market perspectives that inform and provoke.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-6 col-12">
-                                    <div class="single-service">
-                                        <div class="icon">
-                                            <span class="icon-box"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/service-3.png" alt=""></span>
-                                        </div>
-                                        <div class="content">
-                                            <h4 class="title">Visual Design</h4>
-                                            <p class="text">Strategy develop customer in organisational knowledge and market perspectives that inform and provoke.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-6 col-12">
-                                    <div class="single-service">
-                                        <div class="icon">
-                                            <span class="icon-box"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/service-4.png" alt=""></span>
-                                        </div>
-                                        <div class="content">
-                                            <h4 class="title">Product Design</h4>
-                                            <p class="text">Strategy develop customer in organisational knowledge and market perspectives that inform and provoke.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-6 col-12">
-                                    <div class="single-service">
-                                        <div class="icon">
-                                            <span class="icon-box"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/service-5.png" alt=""></span>
-                                        </div>
-                                        <div class="content">
-                                            <h4 class="title">Interactive Design</h4>
-                                            <p class="text">Strategy develop customer in organisational knowledge and market perspectives that inform and provoke.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-6 col-12">
-                                    <div class="single-service">
-                                        <div class="icon">
-                                            <span class="icon-box"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/service-6.png" alt=""></span>
-                                        </div>
-                                        <div class="content">
-                                            <h4 class="title">Motion Graphic</h4>
-                                            <p class="text">Strategy develop customer in organisational knowledge and market perspectives that inform and provoke.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="interviews" role="tabpanel" aria-labelledby="interviews-tab">
-                        <div class="content-interview">
-                            <div class="row">
-                                <div class="col-lg-6 col-12">
-                                    <div class="single-interview">
-                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/interview-1.png" alt=""></div>
-                                        <div class="content">
-                                            <h4 class="title">Business Strategy</h4>
-                                            <p class="text">There are many variations of passages lorem Ipsum available, but the majority have suffered alteration.</p>
-                                            <a href="#" class="more">SEA MORE <span class="icon"><i class="far fa-long-arrow-alt-right"></i></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-12">
-                                    <div class="single-interview">
-                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/interview-2.png" alt=""></div>
-                                        <div class="content">
-                                            <h4 class="title">Business Strategy</h4>
-                                            <p class="text">There are many variations of passages lorem Ipsum available, but the majority have suffered alteration.</p>
-                                            <a href="#" class="more">SEA MORE <span class="icon"><i class="far fa-long-arrow-alt-right"></i></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-12">
-                                    <div class="single-interview">
-                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/interview-3.png" alt=""></div>
-                                        <div class="content">
-                                            <h4 class="title">Business Strategy</h4>
-                                            <p class="text">There are many variations of passages lorem Ipsum available, but the majority have suffered alteration.</p>
-                                            <a href="#" class="more">SEA MORE <span class="icon"><i class="far fa-long-arrow-alt-right"></i></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-12">
-                                    <div class="single-interview">
-                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/interview-4.png" alt=""></div>
-                                        <div class="content">
-                                            <h4 class="title">Business Strategy</h4>
-                                            <p class="text">There are many variations of passages lorem Ipsum available, but the majority have suffered alteration.</p>
-                                            <a href="#" class="more">SEA MORE <span class="icon"><i class="far fa-long-arrow-alt-right"></i></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="awards" role="tabpanel" aria-labelledby="awards-tab">
-                        <div class="content-awards">
-                            <div class="row">
-                                <div class="col-lg-6 col-12">
-                                    <div class="single-awards">
-                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/award-1.png" alt=""></div>
-                                        <div class="content">
-                                            <h4 class="title">Awards Name Here</h4>
-                                            <p class="text">Strategy develop customer in organisational knowledge and market perspectives that inform and provoke.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-12">
-                                    <div class="single-awards">
-                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/award-2.png" alt=""></div>
-                                        <div class="content">
-                                            <h4 class="title">Awards Name Here</h4>
-                                            <p class="text">Strategy develop customer in organisational knowledge and market perspectives that inform and provoke.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-12">
-                                    <div class="single-awards">
-                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/award-3.png" alt=""></div>
-                                        <div class="content">
-                                            <h4 class="title">Awards Name Here</h4>
-                                            <p class="text">Strategy develop customer in organisational knowledge and market perspectives that inform and provoke.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-12">
-                                    <div class="single-awards">
-                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/award-4.png" alt=""></div>
-                                        <div class="content">
-                                            <h4 class="title">Awards Name Here</h4>
-                                            <p class="text">Strategy develop customer in organisational knowledge and market perspectives that inform and provoke.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="exhibitions" role="tabpanel" aria-labelledby="exhibitions-tab">
-                        <div class="content-exhibitions">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="single-exhibition">
-                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/exhibition-1.png" alt=""></div>
-                                        <div class="content">
-                                            <h4 class="name">Can you help translate this site into a foreign? </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="single-exhibition">
-                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/exhibition-2.png" alt=""></div>
-                                        <div class="content">
-                                            <h4 class="name">Can you help translate this site into a foreign? </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="single-exhibition">
-                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/exhibition-3.png" alt=""></div>
-                                        <div class="content">
-                                            <h4 class="name">Can you help translate this site into a foreign? </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="single-exhibition">
-                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/exhibition-4.png" alt=""></div>
-                                        <div class="content">
-                                            <h4 class="name">Can you help translate this site into a foreign? </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="single-exhibition">
-                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/exhibition-5.png" alt=""></div>
-                                        <div class="content">
-                                            <h4 class="name">Can you help translate this site into a foreign? </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="single-exhibition">
-                                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/exhibition-6.png" alt=""></div>
-                                        <div class="content">
-                                            <h4 class="name">Can you help translate this site into a foreign? </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+              </li>
+              <li class="has-dropdown"><a href="blog-list.html">Blog</a>
+                <ul class="submenu">
+                  <li><a href="blog-list.html">Blog List Full Width</a></li>
+                  <li><a href="blog-list-sidebar-left.html">Blog List Left Sidebar</a></li>
+                  <li><a href="blog-list-sidebar-right.html">Blog List Right Sidebar</a></li>
+                  <li><a href="blog-details.html">Blog Details Full Width</a></li>
+                  <li><a href="blog-details-sidebar-left.html">Blog Details Left Sidebar</a></li>
+                  <li><a href="blog-details-sidebar-right.html">Blog Details Right Sidebar</a></li>
+                </ul>
+              </li>
+              <li class="has-dropdown"><a href="#">Pages</a>
+                <ul class="submenu">
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="project-list.html">Project</a></li>
+                  <li><a href="project-details.html">Project Details</a></li>
+                  <li><a href="faq.html">FAQ</a></li>
+                  <li><a href="404-page.html">404 Page</a></li>
+                </ul>
+              </li>
+              <li><a href="contact.html">Contact</a></li>-->
+				<li><a href="/moments">My Moments</a></li>
+            </ul>
+			</div>
+          <div class="col">
+            <div class="header-btn-link text-end"><a href="contact.html" class="btn btn-sm btn-outline-one icon-space-left">Hire Me <i class="fa fa-angle-double-right"></i></a></div>
+          </div>
         </div>
-    </section>
-    <section class="project-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title">
-                        <p class="intro">MY CLIENT</p>
-                        <h2 class="title">Projects</h2>
-                    </div>
-                </div>
-            </div>
+      </div>
+    </div>
+  </header>
+  <!-- .....::::::End Header Section:::::.... --><!-- .....::::::Start Mobile Header Section:::::.... -->
+  <div class="mobile-header d-block d-lg-none">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col">
+          <div class="mobile-logo"><a href="index.html"><!--<img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/logo/logo.png" alt="">--></a></div>
         </div>
-        <div class="project-carousel owl-carousel">
-            <div class="single-project">
-                <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/dashboard_admin.png" alt=""></div>
-                <div class="content">
-                    <p class="type">DASHBOARD, ADMIN</p>
-                    <h2 class="title">Project Management Admin Panel</h2>
-                    <p class="text">I made nine prototypes to understand family needs better and redesigned the iOS and Android apps.</p>
-                    <a class="read btn-style-1" href="#">READ PROCESS</a>
-                </div>
-            </div>
-            <div class="single-project">
-                <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/architecture1.png" alt=""></div>
-                <div class="content">
-                    <p class="type">WEBSITE</p>
-                    <h2 class="title">Architecture Company Website</h2>
-                    <p class="text">I made nine prototypes to understand family needs better and redesigned the iOS and Android apps.</p>
-                    <a class="read btn-style-1" href="#">READ PROCESS</a>
-                </div>
-            </div>
-            <div class="single-project">
-                <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/to-do-list.png" alt=""></div>
-                <div class="content">
-                    <p class="type">MOBILE APP, IOS APP</p>
-                    <h2 class="title">To Do Task List App</h2>
-                    <p class="text">I made nine prototypes to understand family needs better and redesigned the iOS and Android apps.</p>
-                    <a class="read btn-style-1" href="#">READ PROCESS</a>
-                </div>
-            </div>
-            <div class="single-project">
-                <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/dashboard_admin.png" alt=""></div>
-                <div class="content">
-                    <p class="type">DASHBOARD, ADMIN</p>
-                    <h2 class="title">Project Management Admin Panel</h2>
-                    <p class="text">I made nine prototypes to understand family needs better and redesigned the iOS and Android apps.</p>
-                    <a class="read btn-style-1" href="#">READ PROCESS</a>
-                </div>
-            </div>
-            <div class="single-project">
-                <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/architecture1.png" alt=""></div>
-                <div class="content">
-                    <p class="type">WEBSITE</p>
-                    <h2 class="title">Architecture Company Website</h2>
-                    <p class="text">I made nine prototypes to understand family needs better and redesigned the iOS and Android apps.</p>
-                    <a class="read btn-style-1" href="#">READ PROCESS</a>
-                </div>
-            </div>
-            <div class="single-project">
-                <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/to-do-list.png" alt=""></div>
-                <div class="content">
-                    <p class="type">MOBILE APP, IOS APP</p>
-                    <h2 class="title">To Do Task List App</h2>
-                    <p class="text">I made nine prototypes to understand family needs better and redesigned the iOS and Android apps.</p>
-                    <a class="read btn-style-1" href="#">READ PROCESS</a>
-                </div>
-            </div>
+        <div class="col">
+          <div class="mobile-action-link text-end"><a href="#mobile-menu-offcanvas" class="offcanvas-toggle offside-menu"><i class="	fa fa-bars"></i></a></div>
         </div>
-    </section>
-    <section class="testimonial-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title">
-                        <p class="intro">TESTIMONIALS</p>
-                        <h2 class="title">Happy Clients Says</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-carousel owl-carousel">
-                <div class="single-testimonial">
-                    <div class="info">
-                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/photo-1534528741775-53994a69daeb.png" alt=""></div>
-                        <div class="info-right">
-                            <h3 class="name">Martha Sandoval</h3>
-                            <p class="desg">Product Designer at CodeNext</p>
-                        </div>
-                    </div>
-                    <p class="text">We are motivated by the satisfaction of our clients. Put your trust in us and share in our growth Asset Management is made up of a team of expert, committed and experienced people with a passion for financial markets. Our goal is to achieve continuous and sustainable growth of our clients.</p>
-                </div>
-                <div class="single-testimonial">
-                    <div class="info">
-                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/photo-1545975645-ea9501a81d76.png" alt=""></div>
-                        <div class="info-right">
-                            <h3 class="name">Mildred Meyer</h3>
-                            <p class="desg">Product Designer at CodeNext</p>
-                        </div>
-                    </div>
-                    <p class="text">We are motivated by the satisfaction of our clients. Put your trust in us and share in our growth Asset Management is made up of a team of expert, committed and experienced people with a passion for financial markets. Our goal is to achieve continuous and sustainable growth of our clients.</p>
-                </div>
-                <div class="single-testimonial">
-                    <div class="info">
-                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/photo-1534528741775-53994a69daeb.png" alt=""></div>
-                        <div class="info-right">
-                            <h3 class="name">Martha Sandoval</h3>
-                            <p class="desg">Product Designer at CodeNext</p>
-                        </div>
-                    </div>
-                    <p class="text">We are motivated by the satisfaction of our clients. Put your trust in us and share in our growth Asset Management is made up of a team of expert, committed and experienced people with a passion for financial markets. Our goal is to achieve continuous and sustainable growth of our clients.</p>
-                </div>
-                <div class="single-testimonial">
-                    <div class="info">
-                        <div class="img"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/photo-1545975645-ea9501a81d76.png" alt=""></div>
-                        <div class="info-right">
-                            <h3 class="name">Mildred Meyer</h3>
-                            <p class="desg">Product Designer at CodeNext</p>
-                        </div>
-                    </div>
-                    <p class="text">We are motivated by the satisfaction of our clients. Put your trust in us and share in our growth Asset Management is made up of a team of expert, committed and experienced people with a passion for financial markets. Our goal is to achieve continuous and sustainable growth of our clients.</p>
-                </div>
-            </div>
+      </div>
+    </div>
+  </div>
+  <!-- .....::::::Start MobileHeader Section:::::.... --><!-- Start Offcanvas Mobile Menu Section -->
+  <div id="mobile-menu-offcanvas" class="offcanvas offcanvas-rightside offcanvas-mobile-menu-section "><!-- Start Offcanvas Header -->
+    <div class="offcanvas-header text-end">
+      <button class="offcanvas-close"><i class="fa fa-close"></i></button>
+    </div>
+    <!-- End Offcanvas Header --><!-- Start Offcanvas Mobile Menu Wrapper -->
+    <div class="offcanvas-mobile-menu-wrapper"><!-- Start Mobile Menu -->
+      <div class="mobile-menu-bottom"><!-- Start Mobile Menu Nav -->
+        <div class="offcanvas-menu">
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+              <!--<li class="has-dropdown"><a href="service-list.html">Service</a>
+                <ul class="submenu">
+                  <li><a href="service-list.html">Services</a></li>
+                  <li><a href="service-details.html">Service Details</a></li>
+                </ul>
+              </li>
+              <li class="has-dropdown"><a href="blog-list.html">Blog</a>
+                <ul class="submenu">
+                  <li><a href="blog-list.html">Blog List Full Width</a></li>
+                  <li><a href="blog-list-sidebar-left.html">Blog List Left Sidebar</a></li>
+                  <li><a href="blog-list-sidebar-right.html">Blog List Right Sidebar</a></li>
+                  <li><a href="blog-details.html">Blog Details Full Width</a></li>
+                  <li><a href="blog-details-sidebar-left.html">Blog Details Left Sidebar</a></li>
+                  <li><a href="blog-details-sidebar-right.html">Blog Details Right Sidebar</a></li>
+                </ul>
+              </li>
+              <li class="has-dropdown"><a href="#">Pages</a>
+                <ul class="submenu">
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="project-list.html">Project</a></li>
+                  <li><a href="project-details.html">Project Details</a></li>
+                  <li><a href="faq.html">FAQ</a></li>
+                  <li><a href="404-page.html">404 Page</a></li>
+                </ul>
+              </li>
+              <li><a href="contact.html">Contact</a></li>-->
+				<li><a href="/moments">My Moments</a></li>
+          </ul>
         </div>
-    </section>
-    <section class="client-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-4 col-12">
-                    <div class="client-area-left-side">
-                        <div class="section-title">
-                            <p class="intro">MY HONORABLE</p>
-                            <h2 class="title">Clients</h2>
-                        </div>
-                        <ul class="nav nav-tabs" id="clientTab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="world-tab" data-toggle="tab" href="#world" role="tab" aria-controls="world" aria-selected="true">WORLDWIDE <span class="icon"><i class="fas fa-caret-right"></i></span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="country-tab" data-toggle="tab" href="#country" role="tab" aria-controls="country" aria-selected="false">MY COUNTRY <span class="icon"><i class="fas fa-caret-right"></i></span></a>
-                            </li>
-                        </ul> 
-                    </div>
-                </div>
-                <div class="col-lg-9 col-md-8 col-12">
-                    <div class="client-area-right-side">
-                        <div class="tab-content" id="clientTabContent">
-                            <div class="tab-pane fade show active" id="world" role="tabpanel" aria-labelledby="world-tab">
-                                <div class="row">
-                                    <div class="col-lg-4 col-sm-6 col-12">
-                                        <div class="single-client">
-                                            <img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/decisive-farming.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-sm-6 col-12">
-                                        <div class="single-client">
-                                            <img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/ama-prom-baltic.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-sm-6 col-12">
-                                        <div class="single-client">
-                                            <img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/louisiana-plumbing.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-sm-6 col-12">
-                                        <div class="single-client">
-                                            <img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/belrosstroj-858.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-sm-6 col-12">
-                                        <div class="single-client">
-                                            <img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/belrosstroj-858.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-sm-6 col-12">
-                                        <div class="single-client">
-                                            <img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/beot.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="country" role="tabpanel" aria-labelledby="country-tab">
-                                <div class="row">
-                                    <div class="col-lg-4 col-sm-6 col-12">
-                                        <div class="single-client">
-                                            <img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/decisive-farming.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-sm-6 col-12">
-                                        <div class="single-client">
-                                            <img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/belrosstroj-858.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-sm-6 col-12">
-                                        <div class="single-client">
-                                            <img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/belrosstroj-858.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-sm-6 col-12">
-                                        <div class="single-client">
-                                            <img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/home1/beot.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-	-->
+        <!-- End Mobile Menu Nav --></div>
+      <!-- End Mobile Menu --><!-- Start Mobile contact Info -->
+      <div class="mobile-contact-info text-center">
+        <ul class="social-link">
+          <li><a href="https://www.github.com/krenyou"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://krenyou.tumblr.com"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/krenyou"><i class="fa fa-instagram"></i></a></li>
+				<li><a href="https://music.163.com/#/user/home?id=7963606825"><span class="icon-cm-n"></span></a></li>
+        </ul>
+      </div>
+      <!-- End Mobile contact Info --></div>
+    <!-- End Offcanvas Mobile Menu Wrapper --></div>
+  <!-- ...::::End Offcanvas Mobile Menu Section:::... -->
 	
-	<section class="blog-section spad" id="blog">
+	
+	
+	<!-- Offcanvas Overlay -->
+  <div class="offcanvas-overlay"></div>
+  <!-- ...:::Start Hero Section:::... -->
+  <div class="hero-section section-dark-blue-bg">
+    <div class="hero-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-7">
+            <div class="hero-content">
+              <h3 class="title-big">Hello!I'm</h3>
+              <h2 class="title-large"><span class="shape-mark">Kren Y</span>ou</h2>
+              <p> </p>
+              <!--<a href="#" class="btn btn-xl btn-outline-one icon-space-left">Get Resume <i class="icofont-download"></i></a>
+              <div class="video-link"><a class="wave-btn" href="https://youtu.be/MKjhBO2xQzg" data-autoplay="true" data-vbtype="video">
+                <div class="ripple"><i class="icofont-ui-play"></i></div>
+                </a><span class="video-text">Watch Video</span></div>-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-shape hero-top-shape"><span></span><span></span><span></span></div>
+      <div class="hero-shape hero-bottom-shape"><span></span><span></span><span></span></div>
+      <div class="hero-portrait">
+        <div class="image"><img src="https://avatars.githubusercontent.com/u/99156003?v=4" alt="">
+          <div class="image-half-round-shape"></div>
+			<div class="social-link">
+          <a href="https://www.github.com/krenyou"><i class="fa fa-github"></i></a><a href="https://krenyou.tumblr.com"><i class="fa fa-twitter"></i></a><a href="https://www.instagram.com/krenyou"><i class="fa fa-instagram"></i></a>
+				<a href="https://music.163.com/#/user/home?id=7963606825"><span class="icon-cm-n"></span></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ...:::End Hero Section:::... -->
+	
+	<!-- ...:::Start Service Display Section:::... -->
+  <!--<div class="service-display-section section-gap-tb-165 pos-relative">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+			  <div class="section-content"><span class="section-tag">My Services</span>
+				<h2 class="section-title">Service Provide For My Clients.</h2>
+			  </div>
+        </div>
+      </div>
+    </div>
+    <div class="service-display-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="service-display-slider">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="service-box-single-item swiper-slide">
+                    <div class="inner-shape inner-shape-top-right"></div>
+                    <div class="icon"><img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/icon/service-icon-1.png" alt=""></div>
+                    <h4 class="title"><a href="service-details.html">UI/UX Design</a></h4>
+                    <ul class="list-item">
+                      <li>Landing Pages</li>
+                      <li>User Flow</li>
+                      <li>Wireframing</li>
+                      <li>Prototyping</li>
+                      <li>Mobile App Design</li>
+                    </ul>
+                    <div class="inner-shape inner-shape-bottom-right"></div>
+                  </div>
+                  <div class="service-box-single-item swiper-slide">
+                    <div class="inner-shape inner-shape-top-right"></div>
+                    <div class="icon"><img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/icon/service-icon-2.png" alt=""></div>
+                    <h4 class="title"><a href="service-details.html">Development</a></h4>
+                    <ul class="list-item">
+                      <li>HTML/CSS</li>
+                      <li>JavaScript</li>
+                      <li>Animation</li>
+                      <li>WordPress</li>
+                      <li>React</li>
+                    </ul>
+                    <div class="inner-shape inner-shape-bottom-right"></div>
+                  </div>
+                  <div class="service-box-single-item swiper-slide">
+                    <div class="inner-shape inner-shape-top-right"></div>
+                    <div class="icon"><img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/icon/service-icon-3.png" alt=""></div>
+                    <h4 class="title"><a href="service-details.html">Illustration</a></h4>
+                    <ul class="list-item">
+                      <li>Character Design</li>
+                      <li>Icon Set</li>
+                      <li>Illustration Guide</li>
+                      <li>Illustration Set</li>
+                      <li>Motion Graphic</li>
+                    </ul>
+                    <div class="inner-shape inner-shape-bottom-right"></div>
+                  </div>
+				</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="service-display-dots">
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    </div><!-- ...:::End Service Display Section:::... -->
+	
+	
+	
+  <!-- ...:::Start Skill Display Section:::... -->
+  <!-- <div class="skill-display-section section-gap-tb-165 section-bg pos-relative">
+    <div class="skill-display-section-box">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-xl-6 col-xxl-5">
+            <div class="section-content"><span class="section-tag">Special Skills</span>
+              <h2 class="section-title">My Special Skill Field Here.</h2>
+              <a href="#" class="btn btn-xl btn-outline-one icon-space-left">Get Resume <i class="icofont-download"></i></a></div>
+            </div>
+          <div class="col-xl-6 col-xxl-6 offset-xxl-1">
+            <div class="skill-display-wrapper">
+              <div class="skill-progress-single-item"><span class="tag">Communication</span>
+                <div class="skill-box">
+                  <div class="progress-line" data-width="75"><span class="skill-percentage">75%</span></div>
+                </div>
+              </div>
+              <div class="skill-progress-single-item"><span class="tag">Leadership</span>
+                <div class="skill-box">
+                  <div class="progress-line" data-width="70"><span class="skill-percentage">70%</span></div>
+                </div>
+              </div>
+              <div class="skill-progress-single-item"><span class="tag">Teamwork</span>
+                <div class="skill-box">
+                  <div class="progress-line" data-width="90"><span class="skill-percentage">90%</span></div>
+                </div>
+              </div>
+              <div class="skill-progress-single-item"><span class="tag">Flexibility</span>
+                <div class="skill-box">
+                  <div class="progress-line" data-width="80"><span class="skill-percentage">80%</span></div>
+                </div>
+              </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- ...:::End Skill Display Section:::... -->
+	
+	<!-- ...:::Start Counter Display Section:::... -->
+  <!--<div class="counter-display-section section-gap-tb-165 section-bg-2">
+    <div class="counter-display-wrapper">
+      <div class="container">
+        <div class="row justify-content-center justify-content-sm-start">
+          <div class="d-block d-md-flex justify-content-md-start col-12 col-sm-4 col-md-4">
+            <div class="counterup-single-item">
+              <div class="icon"><img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/icon/counterup-icon-1.png" alt=""></div>
+              <div class="content">
+                <h2 class="number"><span class="counter">2,58</span>+</h2>
+                <span class="text">Happy Clients</span></div>
+            </div>
+            </div>
+          <div class="d-block d-md-flex justify-content-md-center col-12 col-sm-4 col-md-4">
+            <div class="counterup-single-item">
+              <div class="icon"><img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/icon/counterup-icon-2.png" alt=""></div>
+              <div class="content">
+                <h2 class="number"><span class="counter">590</span>K</h2>
+                <span class="text">Project Complete</span></div>
+            </div>
+           </div>
+          <div class="d-block d-md-flex justify-content-md-end col-12 col-sm-4 col-md-4">
+            <div class="counterup-single-item">
+              <div class="icon"><img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/icon/counterup-icon-3.png" alt=""></div>
+              <div class="content">
+                <h2 class="number"><span class="counter">28</span>+</h2>
+                <span class="text">Years of Experience</span></div>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ...:::End Counter Display Section:::... -->
+	
+	<!-- ...:::Start Project Display Section:::... -->
+  <!--<div class="project-display-section section-gap-tb-165">
+    <div class="project-display-box">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-xl-12 d-block d-md-flex justify-content-between">
+            <div class="section-content pos-relative"><span class="section-tag">Awesome Portfolio</span>
+              <h2 class="section-title">My Complete Projects</h2>
+            </div>
+            <div class="default-nav-style mt-6 mb-6 mb-md-0 ">
+              <div class="slider-button button-prev"><i class="icofont-double-left"></i></div>
+              <div class="slider-button button-next"><i class="icofont-double-right"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-display-wrapper">
+        <div class="project-display-slider">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="project-box-single-item swiper-slide">
+                <div class="img-box">
+                  <div class="bg-overlay"></div>
+                  <div class="bg-image"><img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/project/project-slider-img-1.jpg" alt=""></div>
+                  <div class="image"><img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/project/project-slider-img-1.jpg" alt=""></div>
+                </div>
+                <div class="content">
+                  <h4 class="title"><a href="project-details.html">Givest - Non Profit PSD Template</a></h4>
+                  <ul class="catagory-nav-item">
+                    <li><a href="">Chairty</a></li>
+                    <li><a href="">Fund Rising</a></li>
+                    <li><a href="">Non Profit</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-box-single-item swiper-slide">
+                <div class="img-box">
+                  <div class="bg-overlay"></div>
+                  <div class="bg-image"><img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/project/project-slider-img-2.jpg" alt=""></div>
+                  <div class="image"><img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/project/project-slider-img-2.jpg" alt=""></div>
+                </div>
+                <div class="content">
+                  <h4 class="title"><a href="project-details.html">Musion - Gardening Website Template</a></h4>
+                  <ul class="catagory-nav-item">
+                    <li><a href="">Gardeining</a></li>
+                    <li><a href="">Landscaping</a></li>
+                    <li><a href="">Greem</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-box-single-item swiper-slide">
+                <div class="img-box">
+                  <div class="bg-overlay"></div>
+                  <div class="bg-image"><img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/project/project-slider-img-3.jpg" alt=""></div>
+                  <div class="image"><img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/project/project-slider-img-3.jpg" alt=""></div>
+                </div>
+                <div class="content">
+                  <h4 class="title"><a href="project-details.html">SEOLLY - SEO Marketing & Digital Agency</a></h4>
+                  <ul class="catagory-nav-item">
+                    <li><a href="">Chairty</a></li>
+                    <li><a href="">Fund Rising</a></li>
+                    <li><a href="">Non Profit</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-box-single-item swiper-slide">
+                <div class="img-box">
+                  <div class="bg-overlay"></div>
+                  <div class="bg-image"><img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/project/project-slider-img-4.jpg" alt=""></div>
+                  <div class="image"><img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/project/project-slider-img-4.jpg" alt=""></div>
+                </div>
+                <div class="content">
+                  <h4 class="title"><a href="project-details.html">Virtuf - Creative Agency Bootstrap 5 Template</a></h4>
+                  <ul class="catagory-nav-item">
+                    <li><a href="">Gardeining</a></li>
+                    <li><a href="">Landscaping</a></li>
+                    <li><a href="">Greem</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!-- End Project Box Single Item --></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ...:::End Project Display Section:::... -->
+	
+	<!-- ...:::Start Testimonial Display Section:::... -->
+  <div class="testimonial-display-section section-gap-tb-165 section-bg">
+    <div class="testimonial-display-box d-flex flex-column align-items-center d-xl-block pos-relative">
+      <div class="container overflow-hidden">
+        <div class="row">
+          <div class="col d-xl-flex justify-content-xl-end"><!-- Start Section Content -->
+            <div class="section-content pos-relative"><span class="section-tag">My quote</span>
+              <h2 class="section-title">我的语录</h2>
+            </div>
+            <!-- End Section Content --></div>
+        </div>
+        <div class="testimonial-display-wrapper">
+          <div class="row">
+            <div class="col-12">
+              <div class="testimonial-display-slider"><!-- Swiper -->
+                <div class="swiper-container">
+                  <div class="swiper-wrapper"><!-- Start testimonial Slider Single Item -->
+                    <div class="testimonial-slider-single-item swiper-slide">
+                      <div class="inner-shape inner-shape-top-right"></div>
+                      <div class="content"><span class="icon">“</span>
+                        <p class="text">All for the purpose not to marry out of love is where bullying.<br>凡是不以结婚为目的的恋爱，都是耍流氓。</p>
+                        <div class="info">
+                          <div class="author">
+                            <h4 class="name">《毛泽东语录》</h4>
+                            <span class="designation">原文：莎士比亚</span></div>
+                          <!--<ul class="review">
+                            <li class="fill"><i class="icofont-star"></i></li>
+                            <li class="fill"><i class="icofont-star"></i></li>
+                            <li class="fill"><i class="icofont-star"></i></li>
+                            <li class="fill"><i class="icofont-star"></i></li>
+                            <li class="blank"><i class="icofont-star"></i></li>
+                          </ul>-->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="testimonial-slider-single-item swiper-slide">
+                      <div class="inner-shape inner-shape-top-right"></div>
+                      <div class="content"><span class="icon">“</span>
+                        <p class="text">生活不只是眼前的苟且，还有诗和远方。</p>
+                        <div class="info">
+                          <div class="author">
+                            <h4 class="name">张克群</h4>
+                            <span class="designation"></span></div>
+                          <!--<ul class="review">
+                            <li class="fill"><i class="icofont-star"></i></li>
+                            <li class="fill"><i class="icofont-star"></i></li>
+                            <li class="fill"><i class="icofont-star"></i></li>
+                            <li class="fill"><i class="icofont-star"></i></li>
+                            <li class="blank"><i class="icofont-star"></i></li>
+                          </ul>-->
+                        </div>
+                      </div>
+                    </div>
+                    <!--<div class="testimonial-slider-single-item swiper-slide">
+                      <div class="inner-shape inner-shape-top-right"></div>
+                      <div class="content"><span class="icon">“</span>
+                        <p class="text">语录案例</p>
+                        <div class="info">
+                          <div class="author">
+                            <h4 class="name">Raleigh Friend</h4>
+                            <span class="designation">CEO,Seoly</span></div>
+                          <ul class="review">
+                            <li class="fill"><i class="icofont-star"></i></li>
+                            <li class="fill"><i class="icofont-star"></i></li>
+                            <li class="fill"><i class="icofont-star"></i></li>
+                            <li class="fill"><i class="icofont-star"></i></li>
+                            <li class="blank"><i class="icofont-star"></i></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>-->
+				  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="default-nav-style mt-5 mt-xl-0"><!-- If we need navigation buttons -->
+        <div class="slider-button button-prev"><i class="fa fa-angle-double-left"></i></div>
+        <div class="slider-button button-next"><i class="fa fa-angle-double-right"></i></div>
+      </div>
+    </div>
+  </div>
+  <!-- ...:::End Testimonial Display Section:::... -->
+
+
+<!-- ...:::Start Company Logo Display Section:::... -->
+  <!--<div class="company-logo-display section-mt-165 ">
+    <div class="company-logo-display-box">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="section-content pos-relative"><span class="section-tag">Favourite Clients</span>
+              <h2 class="section-title">Work With Trusted Comapny.</h2>
+            </div>
+            </div>
+        </div>
+        <div class="company-logo-display-wrapper">
+          <div class="row">
+            <div class="col">
+              <div class="company-logo-display-slider">
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="company-logo-single-item swiper-slide"><a href="#" class="image"><img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/company-logo/company-logo-1.png" alt=""><img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/company-logo/1.png" alt=""></a></div>
+                    <div class="company-logo-single-item swiper-slide"><a href="#" class="image"><img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/company-logo/company-logo-2.png" alt=""><img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/company-logo/2.png" alt=""></a></div>
+                    <div class="company-logo-single-item swiper-slide"><a href="#" class="image"><img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/company-logo/company-logo-3.png" alt=""><img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/company-logo/3.png" alt=""></a></div>
+                    <div class="company-logo-single-item swiper-slide"><a href="#" class="image"><img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/company-logo/company-logo-4.png" alt=""><img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/company-logo/4.png" alt=""></a></div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ...:::End Company Logo Display Section:::... -->
+
+<!-- ...:::Start Blog Feed Display Section:::... -->
+  <div class="blog-feed-display-section section-gap-tb-165">
+    <div class="blog-feed-display-box">
+      <div class="container">
+        <div class="row">
+          <div class="col"><!-- Start Section Content -->
+            <div class="section-content pos-relative text-center"><span class="section-tag">Blog Post</span>
+              <h2 class="section-title">我的博客&文章</h2>
+            </div>
+            <!-- End Section Content --></div>
+        </div>
+        <div class="blog-feed-display-wrapper">
+          <div class="row mb-n5">
+			  <!-- 单链接的文章-K
+            <div class="col-12 mb-5">
+              <div class="blog-feed-single-item">
+                <div class="inner-shape inner-shape-top-right"></div>
+                <a href="blog-details-sidebar-left.html" class="image"><img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/blog/blog-feed-img-1.jpg" alt=""></a>
+                <div class="content-box">
+                  <div class="content">
+                    <a href="blog-details-sidebar-left.html"><div class="post-meta">Business-   07 February,2021</div>
+                    <h4 class="title">Don't wait until you officially started
+                      business to line these up.</h4>
+                  </div></a>
+                  <a href="blog-details-sidebar-left.html" class="btn btn-md btn-outline-one icon-space-left">Read More<i class="fa fa-angle-double-right"></i></a> </div>
+              </div>
+            </div>-->
+			  
+			  <!--原模版的文章-K
+            <div class="col-12 mb-5"> 
+              <div class="blog-feed-single-item">
+                <div class="inner-shape inner-shape-top-right"></div>
+                <a href="blog-details-sidebar-left.html" class="image"> <img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/blog/blog-feed-img-2.jpg" alt=""> </a>
+                <div class="content-box">
+                  <div class="content">
+                    <div class="post-meta"> <a href="#" class="catagory">Business</a> <a href="#" class="date">07 February, 2021</a> </div>
+                    <h4 class="title"><a href="blog-details-sidebar-left.html">Don't wait until you officially started business to line these up.</a></h4>
+                  </div>
+                  <a href="blog-details-sidebar-left.html" class="btn btn-md btn-outline-one icon-space-left">Read More<i class="fa fa-angle-double-right"></i></a></div>
+              </div>
+</div>-->
+			  
+            <div class="col-12 mb-5"><!-- Start Blog Feed Single Item -->
+              <div class="blog-feed-single-item">
+                <div class="inner-shape inner-shape-top-right"></div>
+                <a href="blog-details-sidebar-left.html" class="image"><img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/blog/blog-feed-img-3.jpg" alt=""></a>
+                <div class="content-box">
+                  <div class="content">
+                    <div class="post-meta"><a href="#" class="catagory">Sample</a><a href="#" class="date">02 July,2023</a></div>
+                    <h4 class="title"><a href="blog-details-sidebar-left.html">Blog系统仍在开发 正在更新 敬请期待  ：）</a></h4>
+                  </div>
+                  <a href="blog-details-sidebar-left.html" class="btn btn-md btn-outline-one icon-space-left">Read More<i class="fa fa-angle-double-right"></i></a></div>
+              </div>
+              <!-- End Blog Feed Single Item --></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+			<div align='center'><a href="blog-details-sidebar-left.html" class="btn btn-md btn-outline-one">More Article  <i class="fa fa-angle-double-right"></i></a></div>
+  <!-- ...:::End Blog Feed Display Section:::... -->
+	
+
+<!--<section class="blog-section spad" id="blog">-->
+		<div class="service-display-section section-gap-tb-165 pos-relative">
 		<div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="section-title">
-						<p><br><br><br></p>
-                        <p class="intro">网站更新动态</p>
-                        <h2 class="title">公告 & News</h2>
-                    </div>
+					<div class="section-content"><span class="section-tag">网站更新动态</span>
+						<h2 class="section-title">公告 & News</h2>
+					</div>
+                    
                 </div>
             </div>
 			<div class="row">
@@ -643,8 +624,8 @@
 						<img src="https://www.jq22.com/demo/jquerydyweb201908160049/images/blog/blog2.jpg" alt="">-->
 						<div class="blog-item-text">
 							<h3>最新更新</h3>
-							<p>自2023年04月以来对网站进行全面升级，如今告一段落了<br>全新的网站正式面世<br>部分版本较低的浏览器可能不支持本网站</p>
-							<h5><br>版本号：0.3.1<br>01 July 2023 / POSTED BY <i>Kren-you</i></h5>
+							<p>动态页正式上线<br>改进了主页的部分问题<br>升级了主页的主要功能</p>
+							<h5><br>版本号：0.3.2<br>01~02 July 2023 / POSTED BY <i>Kren-you</i></h5>
 						</div> 
 			<!--</a>-->
 			</div>
@@ -652,8 +633,8 @@
 				<div class="col-md-4">
 						<!--<img src="https://www.jq22.com/demo/jquerydyweb201908160049/images/blog/blog2.jpg" alt="">-->
 						<div class="blog-item-text">
-							<h3>敬请期待。。。</h3>
-							<p>目前只搭好了大体框架，网站还在更新中 <!--</br>   版本号：0.2.4  更新时间：2022-10-26--></p>
+							<h3>敬请期待<i class="fa fa-angle-double-right"></i><i class="fa fa-angle-double-right"></i><i class="fa fa-angle-double-right"></i></h3>
+							<p>网站还在更新中！ <!--</br>   版本号：0.2.4  更新时间：2022-10-26--></p>
 							<!--<h5>26 OCTORBER 2022 / POSTED BY  <i>Kren-you</i></h5>-->
 						</div>
 			</div>
@@ -679,7 +660,7 @@
 						</div>
 					</a>
 				</div>-->
-	<div class="col-12">
+		<div class="col-12">
 						<p><br><br><br></p>
 		</div>
 			</div>
@@ -687,117 +668,93 @@
 	</section>
 	<!-- ==== News Section End ==== -->
 	
-    <section class="social-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title">
-                        <p class="intro">社交媒体</p>
-                        <h2 class="title">在茫茫星海中找到我—></h2>
-                    </div>
-                </div>
-            </div>
-			<p>正在更新：）</p>
-            <!--<div class="row">
-                <div class="col-lg-4 col-sm-6 col-12">
-                    <div class="single-social">
-                        <h3 class="title">Linkeding</h3>
-                        <p class="info">Professional social profile</p>
-                        <span class="icon"><i class="fa fa-linkedin-in"></i></span>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-12">
-                    <div class="single-social">
-                        <h3 class="title">Dribbble</h3>
-                        <p class="info">Design work social profile</p>
-                        <span class="icon"><i class="fa fa-basketball"></i></span>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-12">
-                    <div class="single-social">
-                        <h3 class="title">Instagram</h3>
-                        <p class="info">Image base social communications</p>
-                        <span class="icon"><i class="fa fa-instagram"></i></span>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-12">
-                    <div class="single-social">
-                        <h3 class="title">Twitter</h3>
-                        <p class="info">Random thoughts</p>
-                        <span class="icon"><i class="fa fa-twitter"></i></span>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-12">
-                    <div class="single-social">
-                        <h3 class="title">Medium</h3>
-                        <p class="info">Work case study</p>
-                        <span class="icon"><i class="fa fa-medium"></i></span>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-12">
-                    <div class="single-social">
-                        <h3 class="title">Email</h3>
-                        <p class="info">hello@growth.digital</p>
-                        <span class="icon"><i class="fa fa-envelope"></i></span>
-                    </div>
-                </div>
-            </div>-->
-        </div>
-    </section>
-    <footer>
-        <div class="container">
-            <!-- <div class="footer-top-area">
-                <div class="row">
-                    <div class="col-lg-4 col-sm-3 col-12">
-                        <div class="f-logo">
-                            <a href="index.html" class="link"><img src="https://www.jq22.com/demo/bootstrapsymoban201909271006/img/logo.png" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-5 col-12">
-                        <div class="f-title">
-                            <h2 class="title">Let’s Talk?</h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-4 col-12">
-                        <div class="f-chat">
-                            <a href="#" class="link btn-style-1">LET’S CHAT</a>
-                        </div>
-                    </div>
-                </div>
+	
+	
+	<!-- ...:::Start Footer Section:::... -->
+  <footer class="footer-section section-bg overflow-hidden pos-relative">
+    <div class="footer-inner-shape-top-left"></div>
+    <div class="footer-inner-shape-top-right"></div>
+    <div class="footer-section-top section-gap-t-165">
+      <div class="container">
+        <div class="row">
+          <div class="col-12"><!-- Start Section Content -->
+            <!-- <div class="section-content pos-relative text-center"><span class="section-tag">Get Latest Updates</span>
+              <h2 class="section-title">Subscribe For Newsletter</h2>
             </div> -->
-            <div class="footer-bottom-area">
-                <div class="footer-links">
-                    <ul class="links">
-                        <li><a href="/index.html">HOME</a></li>
-                        <li><a href="/moments">MY MOMENTS</a></li>
-                        <!-- <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">WORKS</a></li>
-                        <li><a href="#">CASE STUDY</a></li>
-                        <li><a href="#">CLIENTS</a></li>
-                        <li><a href="#">CONTACT</a></li> -->
-                    </ul>
-                </div>
-                <div class="footer-copyright">
-                    <p class="copyright">© 2021~2023 Kren-you</p>
-                </div>
-            </div>
+            <!-- End Section Content --></div>
         </div>
-    </footer>
-    <!-- Scripts -->
-    <script src="https://www.jq22.com/jquery/jquery-3.3.1.js"></script>
-    <script src="https://www.jq22.com/jquery/jquery-ui-1.11.0.js"></script>
-    <script src="https://www.jq22.com/demo/bootstrapsymoban201909271006/js/owl.carousel.min.js"></script>
-    <script src="https://www.jq22.com/demo/bootstrapsymoban201909271006/js/jquery.counterup.min.js"></script>
-    <script src="https://www.jq22.com/demo/bootstrapsymoban201909271006/js/countdown.js"></script>
-    <script src="https://www.jq22.com/demo/bootstrapsymoban201909271006/js/stellarnav.min.js"></script>
-    <script src="https://www.jq22.com/demo/bootstrapsymoban201909271006/js/imagesloaded.pkgd.min.js"></script>
-    <script src="https://www.jq22.com/demo/bootstrapsymoban201909271006/js/isotope.pkgd.min.js"></script>
-    <script src="https://www.jq22.com/demo/bootstrapsymoban201909271006/js/jquery.magnific-popup.min.js"></script>
-    <script src="https://www.jq22.com/demo/bootstrapsymoban201909271006/js/jquery.scrollUp.js"></script>
-    <script src="https://www.jq22.com/demo/bootstrapsymoban201909271006/js/jquery.waypoints.min.js"></script>
-    <script src="https://www.jq22.com/demo/bootstrapsymoban201909271006/js/popper.min.js"></script>
-    <script src="https://www.jq22.com/demo/bootstrapsymoban201909271006/js/bootstrap.min.js"></script>
-    <script src="https://www.jq22.com/demo/bootstrapsymoban201909271006/js/theme.js"></script>
+        <div class="footer-top-wrapper text-center">
+          <div class="row">
+            <div class="col-12">
+              <form action="#" class="footer-newsletter">
+                <input type="text" placeholder="仅供玩一玩的输入框">
+                <button class="submit-btn" type="submit">仅供玩一玩的按钮</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-center section-gap-tb-165">
+      <div class="container">
+        <div class="row justify-content-between align-items-center mb-n5">
+          <!--<div class="col-auto mb-5">
+            	<div class="footer-single-info"><a href="tel:+0123456789" class="info-box"><span class="icon"><i class="icofont-phone"></i></span><span class="text">0123456789</span></a></div>
+              </div>-->
+          <div class="col-auto mb-5"><!-- Start Single Footer Info -->
+            <div class="footer-single-info"><a href="mailto:kren-you@outlook.com" class="info-box"><span class="icon"><i class="fa fa-envelope-open-o"></i></span><span class="text">kren-you@outlook.com</span></a></div>
+            <!-- Start Single Footer Info --></div>
+          <div class="col-auto mb-5"><!-- Start Single Footer Info -->
+            <div class="footer-single-info">
+              <ul class="social-link">
+                <li><a href="https://www.github.com/krenyou"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://krenyou.tumblr.com"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/krenyou"><i class="fa fa-instagram"></i></a></li>
+				<li><a href="https://music.163.com/#/user/home?id=7963606825"><span class="icon-cm-n"></span></a></li>
+				<li><a href="https://kren-you.github.io"><span class="icon-kren-3rd-3"></span></a></li>
+              </ul>
+            </div>
+            <!-- Start Single Footer Info --></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row justify-content-center justify-content-md-between align-items-center flex-column-reverse flex-md-row">
+          <div class="col-auto">
+            <div class="footer-copyright">
+              <p class="copyright-text">&copy;2021~2023 <a href="https://kren-you.github.io">Kren-you.github.io </a> by <a href="#" target="_blank">Kren-you</a></p>
+            </div>
+          </div>
+          <!--<div class="col-auto"><a href="index.html" class="footer-logo">
+            <div class="logo"><img src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/images/logo/logo.png" alt=""></div>
+		</a></div>-->
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ...:::End Footer Section:::... --><!-- material-scrolltop button -->
+  <button class="material-scrolltop" type="button"></button>
+</main>
+<!-- Global Vendor,plugins JS --><!-- JS Files ============================================ -->
+	<!-- Global Vendor,plugins JS --><!-- Vendor JS -->
+	<script src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/js/vendor/bootstrap.bundle.min.js"></script>
+	<script src="https://www.jq22.com/jquery/jquery-3.3.1.js"></script>
+	<script src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/js/vendor/jquery-migrate-3.3.0.min.js"></script>
+	<script src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/js/vendor/modernizr-3.11.2.min.js"></script>
+	<!--Plugins JS-->
+	<script src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/js/plugins/swiper-bundle.min.js"></script>
+	<script src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/js/plugins/jquery.appear.min.js"></script>
+	<script src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/js/plugins/jquery.nice-select.js"></script>
+	<script src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/js/plugins/venobox.min.js"></script>
+	<script src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/js/plugins/jquery.waypoints.js"></script>
+	<script src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/js/plugins/images-loaded.min.js"></script>
+	<script src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/js/plugins/isotope.pkgd.min.js"></script>
+	<script src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/js/plugins/counter.js"></script>
+	<script src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/js/plugins/ajax-mail.js"></script>
+	<script src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/js/plugins/material-scrolltop.js"></script>
+	<script src="https://www.jq22.com/demo/jquerybootstrapGrjlmoban202107061130/assets/js/main.js"></script>
+	<!--My own Js-->
+    <script src="demo-files/demo.js"></script>
 </body>
-
 </html>
