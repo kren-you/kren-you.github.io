@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTC-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TickHub - Electronics Store Ecommerce Website Template">
+
+  <!-- bootstarp css file 版式-->
+  <link rel="stylesheet" href="static/css/bootstrap.min.css">
+  <!--  owl carousel file 动画什么的-->
+  <link rel="stylesheet" href="static/css/owl.carousel.min.css">
+  <!--  toasts file     -->
+  <link rel="stylesheet" href="static/css/toastr.min.css">
+  <!-- fontawesome icons -->
+  <link rel="stylesheet" href="static/css/all.min.css">
+  <link rel="stylesheet" href="static/css/all.min1.css">
+  <!-- main css file -->
+  <link rel="stylesheet" href="static/css/styles.css">
+
+  <title>Kren-You - My personal website</title>
+  <!-- Favicon -->   
+  <!-- <link href="https://avatars.githubusercontent.com/u/99156003" rel="shortcut icon"/>
+  <link href="https://img.picgo.net/2024/06/27/kren-5th---0bb6effab66e3550.png" rel="shortcut icon"/> -->
+  <link href="https://img.picgo.net/2024/07/10/kren-5th---438e8600e4fde2e9.png" rel="shortcut icon"/>
+
+  <!-- Tencent js&css --> 
+  <script type="text/javascript" src="https://www.tencent.com/js/jquery.min.js"></script>
+  <script type="text/javascript" src="https://www.tencent.com/js/swiper.min.js"></script>
+  <script type="text/javascript" src="https://www.tencent.com/js/tencent.js"></script>
+</head>
+
+<body class="body position-relative">
+
+  <!-- start preLoader -->
+  <div id="preloader">
+    <div class="spinner"></div>
+  </div>
+  <!-- end preLoader -->
+
+  <!-- start scroll to top button -->
+  <div id="progress">
+    <span id="progress-value"><i class="fa-solid fa-arrow-up"></i></span>
+  </div>
+  <!-- end scroll to top button -->
+
+  <!-- ======= start Header ======= -->
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a href="">
+          <h3 class="heading-2 primary-text">Kren-You</h3>
+        </a>
+        <!-- if you prefer to use an image as logo -->
+        <!-- <a class="navbar-brand " href="#"><img src="https://img.picgo.net/2024/07/10/kren-5th---Kren-You3918fd4abadd5137.png" class="logo" alt="LOGO"></a> -->
+        <div class="d-flex gap-16">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <button class="cart-mobile" id="cart-mobile">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+          <ul class="navbar-nav ms-auto" id="navbar">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="">主页</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">了解我</a>
+            </li>
+            <!--    <li class="nav-item">
+              <a class="nav-link" href="store.html">store</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                pages
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item py-2" href="product.html">product page</a></li>
+                <li><a class="dropdown-item py-2" href="privacy-policy.html">privacy policy</a></li>
+                <li><a class="dropdown-item py-2" href="terms.html">terms of use</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">博客站</a>
+            </li>    -->
+          </ul>
+      	    	<!--<div class="d-flex align-items-center justify-content-center  gap-2 ms-auto">
+    		       	 <a class="btn" href="contact.html">register</a>
+  		          <button class="cart">
+        		      <i class="fa-solid fa-cart-shopping"></i>
+            		</button>
+       		   </div>-->
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- ======= end Header ======= -->
+
+<!-- ======= Tencent 滑动模块 Start ======= --> 
+<link href="https://www.tencent.com/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+<link href="https://www.tencent.com/css/enhancement-base.css" rel="stylesheet" type="text/css"/>
+  <section class="ten_banner">
+      <div class="ten_banner_swiper swiper-container" data-breakpoint="0:1" data-spacing="0" data-autoplay="8000"
+           data-nav=".ten_banner_bullet" data-prev=".ten_banner_arr_l" data-next=".ten_banner_arr_r"
+           data-nav-click="1">
+        <div class="ten_banner_wrapper swiper-wrapper">
+	<!--Part Head-->
+          <div class="ten_banner_slide swiper-slide" style="cursor: pointer">
+                                      <a href="#" target="_blank">
+                <img src="https://3233929.s95i.faiusr.com/4/183/AFwIABAEGAAgk6m5tAYo0MKb4wIwwAc4nAQ!800x800.png?v=1720604327187"/>
+                <div class="ten_banner_shadow ten_banner_shadow--20"></div>
+                <div class="ten_banner_text">
+                  <div class="ten_main">
+                    <h2>新一版网站（第五代）正式上线！！！</h2>
+                  </div>
+                </div>
+              </a>
+                      </div>
+	  <div class="ten_banner_slide swiper-slide" style="cursor: pointer">
+            <a href="https://jyj.fuzhou.gov.cn/zwgk/cswz/fzygzz/tzgg/202407/t20240710_4857456.htm" target="_blank">
+              <img src="https://p2.itc.cn/images01/20230624/5b0ec29bed744e968ebf38f058bc72b7.jpeg"/>
+              <div class="ten_banner_shadow ten_banner_shadow--10"></div>
+              <div class="ten_banner_text">
+                <div class="ten_main">
+                  <h2>福州中考成绩公布</h2>
+                  <h5>中考出成绩啦！！！7月10日下午3点，福州中考成绩公布。第一条中招投档控制线为747.5分，第二条线为722分。</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!--<div class="ten_banner_slide swiper-slide" style="cursor: pointer">
+            <a href="跳转链接" target="_blank">
+              <img src="背景链接"/>
+              <div class="ten_banner_shadow ten_banner_shadow--10"></div>
+              <div class="ten_banner_text">
+                <div class="ten_main">
+                  <h2>主标题</h2>
+                  <h5>说明文字</h5>
+                </div>
+              </div>
+            </a>
+          </div>-->
+         <!--Part tail -->
+        </div>
+        <div class="ten_banner_nav">
+          <div class="ten_main">
+            <div class="ten_banner_arr">
+              <span href="#" class="ten_banner_arr_l"></span>
+              <span href="#" class="ten_banner_arr_r"></span>
+            </div>
+            <div class="ten_banner_bullet">&bull;</div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- ======= Tencent 滑动模块 End ======= --> 
+    
+  <!-- ============== start shopping cart ============== -->
+  <!--<section class="shopping-cart">
+    <div class="d-flex flex-column gap-8 products-container">
+      <div class="d-flex pt-4 px-3 justify-content-between align-items-center">
+        <h4 class="heading-4">shopping cart</h4>
+      </div>
+      <hr class="m-0 mx-3 p-0 ">
+      <div class="d-flex justify-content-between align-items-center gap-16 padding-16">
+        <div class="d-flex align-items-center justify-content-center gap-8">
+          <div class="img">
+            <img src="static/picture/2.png" alt="product">
+          </div>
+          <div class="d-flex flex-column">
+            <h5>IWatch SE 3</h5>
+            <h5>QTY: <span class="grey-text">3</span></h5>
+          </div>
+        </div>
+        <div class="d-flex flex-column align-items-start">
+          <div class="heading-4 grey-text">US$39.99</div>
+          <button class="remove">remove</button>
+        </div>
+      </div>
+      <hr class="m-0 mx-3 p-0 ">
+      <div class="d-flex justify-content-between align-items-center gap-16 padding-16">
+        <div class="d-flex align-items-center justify-content-center gap-2">
+          <div class="img">
+            <img src="static/picture/3.png" alt="product">
+          </div>
+          <div class="d-flex flex-column">
+            <h5>IWatch SE 3</h5>
+            <h5>QTY: <span class="grey-text">3</span></h5>
+          </div>
+        </div>
+        <div class="d-flex flex-column align-items-start">
+          <div class="heading-4 grey-text">US$39.99</div>
+          <button class="remove">remove</button>
+        </div>
+      </div>
+      <hr class="m-0 mx-3  p-0 ">
+      <div class="d-flex justify-content-between align-items-center gap-16 padding-16">
+        <div class="d-flex align-items-center justify-content-center gap-8">
+          <div class="img">
+            <img src="static/picture/4.png" alt="product">
+          </div>
+          <div class="d-flex flex-column">
+            <h5>IWatch SE 3</h5>
+            <h5>QTY: <span class="grey-text">3</span></h5>
+          </div>
+        </div>
+        <div class="d-flex flex-column align-items-start">
+          <div class="heading-4 grey-text">US$39.99</div>
+          <button class="remove">remove</button>
+        </div>
+      </div>
+      <hr class="m-0 mx-3  p-0 ">
+      <div class="d-flex justify-content-between align-items-center gap-16 padding-16">
+        <div class="d-flex align-items-center justify-content-center gap-8">
+          <div class="img">
+            <img src="static/picture/5.png" alt="product">
+          </div>
+          <div class="d-flex flex-column">
+            <h5>IWatch SE 3</h5>
+            <h5>QTY: <span class="grey-text">3</span></h5>
+          </div>
+        </div>
+        <div class="d-flex flex-column align-items-start">
+          <div class="heading-4 grey-text">US$39.99</div>
+          <button class="remove">remove</button>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex flex-column gap-16 padding-16">
+      <hr>
+      <div class="d-flex align-items-start justify-content-between gap-16">
+        <div class="d-flex flex-column">
+          <h4 class="heading-4">Total</h4>
+          <p class="body-2">Shipping and taxes are calculated at checkout</p>
+        </div>
+        <h5>$102.9</h5>
+      </div>
+      <button class="btn">checkout now</button>
+    </div>
+  </section>-->
+  <!-- ============== end shopping cart ============== -->
+
+  <!-- ============== Start Hero section ========== -->
+  <!--<section class="hero d-flex flex-column gap-64 position-relative section mt-4" id="hero">
+    <div class="container d-flex justify-content-center align-items-center">
+      <div class="d-flex flex-column justify-content-center align-items-center col-lg-8 col-12 text-center  gap-8">
+        <h1 class="heading-1">Explore Our Latest Watch and Gadget Collection!</h1>
+        <p class="body-1">
+          Welcome to our digital emporium, where style meets innovation in the realm of watches,
+          gadgets, and cutting-edge technology. Discover a curated collection that transcends time, blending timeless
+          elegance with the latest advancements.
+        </p>
+        <div class="d-flex gap-8">
+          <a href="store.html" class="btn">explore products</a>
+          <a href="about.html" class="btn-outline">about us</a>
+        </div>
+      </div>
+    </div>
+    <div class="scroller" data-speed="fast">
+      <div class="scroller__inner ">
+        <img src="static/picture/1.png" alt="product">
+        <img src="static/picture/2.png" alt="product">
+        <img src="static/picture/3.png" alt="product">
+        <img src="static/picture/4.png" alt="product">
+        <img src="static/picture/5.png" alt="product">
+        <img src="static/picture/6.png" alt="product">
+      </div>
+    </div>
+  </section> -->
+  <!-- ============== End Hero section ========== -->
+
+  <!-- ============== start about section ============== -->
+  <section class="about section" id="services">
+    <div class="container d-flex flex-column text-center justify-content-between align-items-center gap-32">
+      <div class="heading d-flex flex-column justify-content-between align-items-center">
+        <h2 class="heading-1 col-lg-6 col-12">了解我</h2>
+        <p class="body-1 col-lg-8">　　　　　　　　　　　　　　　　　　　　　　　　　</p>
+      </div>
+      <div class="d-flex flex-column gap-16  justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center g-4 h-100 ">
+          <div class="col-lg-7 col-12 h-100 img">
+            <img class="w-100 h-100" src="https://img0.baidu.com/it/u=3757020724,3008085777&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500" alt="about">
+          </div>
+          <div class="col-lg-5 col-12 h-100 ">
+            <div class="d-flex flex-column justify-content-center  text-start gap-8 bg-box padding-16 b-radius h-100">
+              <center>
+		<h2 class="heading-2">我喜欢的动物</h2>
+            	<p class="body-2">　　　　　　　　　页面跳转暂不可用　　　　　　　　　　</p>
+            	<a href="store.html" class="btn w-fit">更多 Detail</a>
+              </center>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-lg-2 align-items-center g-4 h-100 ">
+          <div class="col-lg-7 col-12 h-100 ">
+            <div class="d-flex flex-column justify-content-center  text-start gap-8 bg-box padding-16 b-radius h-100">
+	      <center>
+              <h2 class="heading-2">我喜欢的音乐</h2>
+              <p class="body-2">　　　　　　　　　　　　　　　页面跳转暂不可用　　　　　　　　　　　　　　　　</p>
+              <a href="store.html" class="btn w-fit">更多 Detail</a>
+	      </center>
+            </div>
+          </div>
+          <div class="col-lg-5 col-12 h-100 img">
+            <img class="w-100 h-100" src="https://pic.quanjing.com/9c/l5/QJ6619416820.jpg" alt="about">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============== End about section ========== -->
+
+  <!-- ============== Start bestsellers section ========== -->
+  <!-- <section class="bestsellers section position-relative pt-4 mt-4" id="bestsellers">
+    <div class="container d-flex flex-column gap-64">
+      <div class="heading row justify-content-between align-items-start g-4">
+        <div class="d-flex flex-column align-items-start justify-content-start gap-8 col-lg-6 col-12">
+          <h1 class="heading-1">Bestsellers</h1>
+          <p class="body-1">browse favorite sale styles and brands</p>
+        </div>
+        <div class="col-lg-6 col-12 d-flex justify-content-lg-end justify-content-start">
+          <a href="store.html" class="learn-more">Browse All Products <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="bg-box d-flex flex-column gap-16 position-relative b-radius">
+            <h4 class="category">watches</h4>
+            <img src="static/picture/4.png" alt="product">
+            <div class="d-flex flex-column padding-16">
+              <a href="product.html">
+                <h3 class="heading-4">Lryx Watch</h3>
+              </a>
+              <p class="body-2">Elevate your casual style with our Men's Hoodie</p>
+              <h3 class="heading-3 my-2">$99.00</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="bg-box d-flex flex-column gap-16 position-relative b-radius">
+            <h4 class="category">watches</h4>
+            <img src="static/picture/5.png" alt="product">
+            <div class="d-flex flex-column padding-16">
+              <a href="product.html">
+                <h3 class="heading-4">IWatch SE 3</h3>
+              </a>
+              <p class="body-2">Elevate your casual style with our Men's Hoodie</p>
+              <h3 class="heading-3 my-2">$29.00</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="bg-box d-flex flex-column gap-16 position-relative b-radius">
+            <h4 class="category">gadgets</h4>
+            <img src="static/picture/6.png" alt="product">
+            <div class="d-flex flex-column padding-16">
+              <a href="product.html">
+                <h3 class="heading-4">TechPod Wireless Earbuds</h3>
+              </a>
+              <p class="body-2">Elevate your casual style with our Men's Hoodie</p>
+              <h3 class="heading-3 my-2">$59.00</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="bg-box d-flex flex-column gap-16 position-relative b-radius">
+            <h4 class="category">gadgets</h4>
+            <img src="static/picture/1.png" alt="product">
+            <div class="d-flex flex-column padding-16">
+              <a href="product.html">
+                <h3 class="heading-4">ZoomPro HD Webcam</h3>
+              </a>
+              <p class="body-2">Elevate your casual style with our Men's Hoodie</p>
+              <h3 class="heading-3 my-2">$49.00</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> --> 
+  <!-- ============== End bestsellers section ========== -->
+
+  <!-- ============== Start Features section ========== -->
+  <!-- <section class="features section position-relative pt-4 mt-4" id="features">
+    <div class="container d-flex flex-column gap-64">
+      <div class="heading d-flex flex-column gap-8 justify-content-center align-items-center text-center">
+        <h1 class="heading-1">Our Features</h1>
+        <p class="body-1 col-lg-8">Welcome to our digital emporium, where style meets innovation in the realm of
+          watches,
+          gadgets, and cutting-edge technology. Discover a curated collection that transcends time.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="d-flex flex-column gap-16">
+            <div class="d-flex justify-content-center align-items-center b-radius icon-box bg-box">
+              <i class="fa-solid fa-truck-fast icon-sm"></i>
+            </div>
+            <div class="d-flex flex-column mt-2">
+              <h3 class="heading-3">Free shipping</h3>
+              <p class="body-2">Elevate your casual style with our Men's Hoodie</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="d-flex flex-column gap-16">
+            <div class="d-flex justify-content-center align-items-center b-radius icon-box bg-box">
+              <i class="fa-solid fa-credit-card icon-sm"></i>
+            </div>
+            <div class="d-flex flex-column mt-2">
+              <h3 class="heading-3">secure payments</h3>
+              <p class="body-2">Elevate your casual style with our Men's Hoodie</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="d-flex flex-column gap-16">
+            <div class="d-flex justify-content-center align-items-center b-radius icon-box bg-box">
+              <i class="fa-solid fa-box-open icon-sm"></i>
+            </div>
+            <div class="d-flex flex-column mt-2">
+              <h3 class="heading-3">30 days free return</h3>
+              <p class="body-2">Elevate your casual style with our Men's Hoodie</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="d-flex flex-column gap-16">
+            <div class="d-flex justify-content-center align-items-center b-radius icon-box bg-box">
+              <i class="fa-regular fa-gem icon-sm"></i>
+            </div>
+            <div class="d-flex flex-column mt-2">
+              <h3 class="heading-3">curated collections</h3>
+              <p class="body-2">Elevate your casual style with our Men's Hoodie</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- ============== End Features section ========== -->
+
+  <!-- ============== Start featured product section ========== -->
+  <section class="bestsellers section position-relative pt-4 mt-4" id="about">
+    <div class="container d-flex flex-column gap-64">
+      <div class="heading row justify-content-between align-items-start g-4">
+        <div class="d-flex flex-column align-items-start justify-content-start gap-8 col-lg-6 col-12">
+          <h1 class="heading-1">博客文章</h1>
+          <p class="body-1">博客站仍在开发中，预计于今年8月份上线。</p>
+        </div>
+        <div class="col-lg-6 col-12 d-flex justify-content-lg-end justify-content-start">
+          <a href="#" class="learn-more">浏览所有文章<i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <!--<div class="row justify-content-center align-items-center g-4 product-container">
+        <div class="col-lg-6 col-12">
+          <div class="row g-4">
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="bg-box d-flex flex-column gap-16 position-relative b-radius">
+                <img src="static/picture/4.png" alt="product">
+                <div class="d-flex flex-column padding-16">
+                  <a href="product.html">
+                    <h3 class="heading-4">Lryx Watch</h3>
+                  </a>
+                  <h3 class="heading-3 my-1 grey-text">$99.00</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="bg-box d-flex flex-column gap-16 position-relative b-radius">
+                <img src="static/picture/5.png" alt="product">
+                <div class="d-flex flex-column padding-16">
+                  <a href="product.html">
+                    <h3 class="heading-4">IWatch SE 3</h3>
+                  </a>
+                  <h3 class="heading-3 my-1 grey-text">$29.00</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="bg-box d-flex flex-column gap-16 position-relative b-radius">
+                <img src="static/picture/6.png" alt="product">
+                <div class="d-flex flex-column padding-16">
+                  <a href="product.html">
+                    <h3 class="heading-4">ZoomPro HD Webcam</h3>
+                  </a>
+                  <h3 class="heading-3 my-1 grey-text">$59.00</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="bg-box d-flex flex-column gap-16 position-relative b-radius">
+                <img src="static/picture/1.png" alt="product">
+                <div class="d-flex flex-column padding-16">
+                  <a href="product.html">
+                    <h3 class="heading-4">TechPod Wireless Earbuds</h3>
+                  </a>
+                  <h3 class="heading-3 my-1 grey-text">$49.00</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12 h-100">
+          <div class="bg-box d-flex flex-column gap-16 position-relative b-radius h-100 ">
+            <img src="static/picture/6.png" alt="product">
+            <div class="d-flex flex-column padding-16">
+              <a href="product.html">
+                <h3 class="heading-4">TechPod Wireless Earbuds</h3>
+              </a>
+              <p class="body-2">Elevate your casual style with our Men's Hoodie</p>
+              <h3 class="heading-3 my-2">$59.00</h3>
+            </div>
+          </div>
+        </div>
+      </div>-->
+    </div>
+  </section>
+  <!-- ============== end featured products section ========== -->
+
+
+  <!-- ============== start testimonials section ========== -->
+  <!--<section class="testimonials position-relative pt-4 mt-4 section" id="testimonials">
+    <div class="container">
+      <div class="heading d-flex flex-column justify-content-between align-items-center">
+        <h2 class="heading-1">what our clients says</h2>
+      </div>
+      <div class="row mt-4 pt-2">
+        <div class="owl-carousel testimonial owl-theme">
+
+          <div class="item">
+            <div class="bg-box padding-16">
+              <div class="d-flex flex-column gap-16 h-100">
+                <div class="d-flex align-items-center justify-content-between gap-8 text">
+                  <div class="d-flex justify-content-center align-items-center gap-8">
+                    <div class="img">
+                      <img src="static/picture/testimonials-3.jpg" alt="testimonial" class="b-radius">
+                    </div>
+                    <h3 class="heading-3 m-0 p-0">sarah lee</h3>
+                  </div>
+                  <div class="d-flex gap-2">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+		  </div>
+                </div>
+                <p class="body-1">I've been shopping for watches online for years, and this website stands out for its
+                  exceptional service and selection. The curated collection features both classic and contemporary
+                  timepieces, catering to every style and budget. The easy navigation and secure checkout process make
+                  shopping a breeze. I've never been disappointed with my purchases and will continue to be a loyal
+                  customer.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>-->
+  <!-- ============== End testimonials section ========== -->
+
+  <!-- ============== Start cta section ========== -->
+  <section class="cta section">
+    <div class="container section b-radius bg-box d-flex flex-column justify-content-center align-items-center">
+      <div class="d-flex flex-column justify-content-center align-items-center gap-16">
+        <h2 class="heading-1 col-lg-8 text-center">《追梦》 2023年刊 发布</h2>
+        <p class="body-1 col-lg-8 text-center">福州时代中学《追梦》校刊2023年刊，由我主编，于2024年4月15日定稿，5月付印、售卖，截至6月1日销量达500本+。</p>
+        <a href="" class="btn">来看看（在线预览暂不可用）</a>
+      </div>
+    </div>
+  </section>
+  <!-- ============== end cta section ========== -->
+
+  <!-- ============== start faq section ========== -->
+  <!-- <section class="faq position-relative pt-4 mt-4" id="faq">
+    <div class="container section">
+      <div class="heading d-flex flex-column text-center justify-content-center align-items-center">
+        <h2 class="heading-1">frequently asked <span class="unique-text">questions</span></h2>
+      </div>
+      <div class="row justify-content-center align-items-center  g-4 mt-4 pt-2">
+        <div class="col-lg-8 col-12">
+          <div class="d-flex flex-column justify-content-center gap-16">
+            <div class="b-radius padding-16 bg-box">
+              <button class="btn col-12" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" onclick="rotateIcon('icon1')" aria-expanded="false">
+                <span class="d-flex justify-content-between w-100 m-0 p-0 heading-4">
+                  What are your membership options and pricing?
+                  <i id="icon1" class="fa-solid fa-chevron-down mx-4 icon-sm primary-text rotate-icon"></i>
+                </span>
+              </button>
+              <div class="collapse" id="collapseOne">
+                <p class="body-1 mt-4">
+                  We offer a variety of membership options to fit your fitness goals and lifestyle, including
+                  monthly,
+                  quarterly, and annual plans. Our pricing is competitive and transparent, with no hidden fees.
+                  Visit
+                  our Membership page for more information on pricing and benefits.
+                </p>
+              </div>
+            </div>
+
+            <div class="box b-radius padding-16 bg-box">
+              <button class="btn col-12" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" onclick="rotateIcon('icon2')" aria-expanded="false">
+                <span class="d-flex justify-content-between w-100 heading-4 m-0 p-0">
+                  What amenities and facilities does your gym offer?
+                  <i id="icon2" class="fa-solid fa-chevron-down mx-4 icon-sm primary-text rotate-icon"></i>
+                </span>
+              </button>
+              <div class="collapse" id="collapseTwo">
+                <p class="body-2 mt-4">
+                  Our state-of-the-art facilities include cardio and strength training equipment, group fitness
+                  classes,
+                  personal training services, locker rooms with showers, and more. We pride ourselves on creating
+                  a
+                  welcoming and inclusive environment where members can achieve their fitness goals comfortably.
+                </p>
+              </div>
+            </div>
+
+            <div class="box b-radius padding-16 bg-box">
+              <button class="btn col-12" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" onclick="rotateIcon('icon3')" aria-expanded="false">
+                <span class="d-flex justify-content-between w-100 heading-4 m-0 p-0 ">
+                  Do you offer personal training services?
+                  <i id="icon3" class="fa-solid fa-chevron-down mx-4 icon-sm primary-text rotate-icon"></i>
+                </span>
+              </button>
+              <div class="collapse" id="collapseThree">
+                <p class="body-2 mt-4">
+                  Yes, we offer personalized training programs led by certified fitness professionals who are
+                  dedicated
+                  to helping you reach your full potential. Whether you're new to exercise or looking to take your
+                  fitness to the next level, our trainers will provide the guidance, motivation, and expertise you
+                  need
+                  to succeed.
+                </p>
+              </div>
+            </div>
+
+            <div class="b-radius padding-16 bg-box">
+              <button class="btn col-12" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" onclick="rotateIcon('icon4')" aria-expanded="false">
+                <span class="d-flex justify-content-between w-100 heading-4 m-0 p-0">
+                  What safety measures are in place at your gym?
+                  <i id="icon4" class="fa-solid fa-chevron-down mx-4 icon-sm primary-text rotate-icon"></i>
+                </span>
+              </button>
+              <div class="collapse" id="collapsefour">
+                <p class="body-2 mt-4">
+                  The health and safety of our members are our top priorities. We have implemented rigorous
+                  cleaning
+                  protocols, social distancing measures, and capacity limits to ensure a safe and hygienic
+                  environment
+                  for everyone. Additionally, we require all members to adhere to our guidelines for wearing masks
+                  and
+                  sanitizing equipment before and after use.
+                </p>
+              </div>
+            </div>
+
+            <div class="b-radius padding-16 bg-box">
+              <button class="btn col-12" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" onclick="rotateIcon('icon5')" aria-expanded="false">
+                <span class="d-flex justify-content-between w-100 heading-4 m-0 p-0">
+                  Can I try out your gym before committing to a membership?
+                  <i id="icon5" class="fa-solid fa-chevron-down mx-4 icon-sm primary-text rotate-icon"></i>
+                </span>
+              </button>
+              <div class="collapse" id="collapseFive">
+                <p class="body-2 mt-4">
+                  Absolutely! We offer complimentary trial passes for first-time visitors to experience our
+                  facilities
+                  and services firsthand. Simply fill out the form on our website to request your free trial pass
+                  and
+                  start your fitness journey with us today.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- ============== end faq section ========== -->
+
+  <!-- ============== start footer section ========== -->
+  <section class="footer position-relative pt-4 mt-4">
+    <div class="container">
+      <div class="row justify-content-center align-items-center g-4 py-5">
+        <div class="col-lg-6 col-12">
+          <div class="d-flex flex-column gap-8">
+            <h3 class="heading-3">Kerry You</h3>
+            <p class="body-1 col-lg-8 col-12">许多部分仍未完善，有待更新<br/>完整页面预计 7月22日 上线</p>
+            <p class="body-1 col-lg-8 col-12">最新版本 / Version ：0.5.-1 </p>
+            <p class="body-1 col-lg-8 col-12">更新日期 ：2024/07/11 </p>
+            <!-- <div class="d-flex gap-3">
+              <i class="fa-brands fa-facebook icon-sm"></i>
+              <i class="fa-brands fa-instagram icon-sm"></i>
+              <i class="fa-brands fa-twitter icon-sm"></i>
+              <i class="fa-brands fa-linkedin icon-sm"></i>
+            </div>-->
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12">
+ 	         <div class="d-flex flex-column gap-8">
+ 	           <h3 class="heading-4">页面目录</h3>
+	            <div class="d-flex flex-column gap-2">
+	              <a href="">主页</a>
+	              <a href="about.html">了解我</a>
+	              <!--<a href="services.html">services</a>
+	              <a href="contact.html">contact</a>-->
+	            </div>
+	          </div>
+	        </div>
+	        <!--<div class="col-lg-3 col-md-6 col-12">
+	          <div class="d-flex flex-column gap-8">
+	            <h3 class="heading-4">社交账号</h3>
+	            <div class="d-flex flex-column gap-2">
+	              <a href="">微信（私密/不公开）</a>
+	              <a href="about.html">QQ（私密/不公开）</a>
+	              <a href="services.html">网易云音乐</a>
+	              <a href="contact.html">豆瓣</a>
+	            </div>
+	          </div>
+	        </div>-->
+      </div>
+      <hr class="p-0 m-0">
+
+      <div class="d-flex justify-content-between align-items-center g-4 py-2 w-100">
+        <p class="footer-1" align="center">Copyright &copy; 2024. Kerry You all rights reserved.</p>
+      </div>
+
+    </div>
+  </section>
+  <!-- ============== end footer section ========== -->
+
+  <!--  JQuery file     -->
+  <script src="static/js/jquery-3.6.1.min.js"></script>
+  <!--  toasts file     -->
+  <script src="static/js/toastr.min.js"></script>
+  <!--  owl carousel file     -->
+  <script src="static/js/owl.carousel.min.js"></script>
+  <!--  isotope filter file     -->
+  <script src="static/js/isotope.min.js"></script>
+  <!--  bootstrap bundle js file     -->
+  <script src="static/js/bootstrap.bundle.min.js"></script>
+  <!--  counter     -->
+  <script src="static/js/jquery.counterup.min.js"></script>
+  <script src="static/js/jquery.waypoints.js"></script>
+  <!--  main js file  -->
+  <script src="static/js/main.js"></script>
+
+</body>
+</html>
